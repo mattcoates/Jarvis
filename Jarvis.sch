@@ -963,9 +963,9 @@ SDIO_CK
 Text Label 3100 6700 0    60   ~ 0
 SD_CD
 Text Label 3100 3700 0    60   ~ 0
-USART1_TX
+USART2_TX
 Text Label 3100 3800 0    60   ~ 0
-USART1_RX
+USART2_RX
 Text Label 3100 6300 0    60   ~ 0
 I2C1_SDA
 Text Label 3100 6200 0    60   ~ 0

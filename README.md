@@ -1,16 +1,22 @@
-#Jarvis - Flight Computer
+#Jarvis Flight Computer
 
-Jarvis is a generic flight computer for use in my level 1 & 2 certification attempt rocket.
+Jarvis is a generic rocket flight computer for use in my level 1 & 2 certification attempt rockets.
 
 Specifications:
-- 38mm Diameter by 80mm Avionics Bay
-- STM32F4 Microcontroller
-- MS5611 Barometer
-- 4x PyroChannels
-- Beeper
-- SD Card for Dataloging
-- 1x AA Energizer Lithium Battery w/ Boost Coverter
-- MPU9250 State Estimation
-- uBlox GPS
-- Radio Downlink for Telemetry
+- Size: 38mm Diameter x 80mm
+- Applications Processor: STM32F411CxUx
+- Power Supply: x1 Energizer L91 (AA) w/ Boost Coverter to 3.3v
+- Barometer: MS5611
+- Pyro Channels: x3 w/ Fire & Sense Functioniality
+- Storage: x1 uSD Card
+- State Estimation: MPU9250
+- GPS: uBlox MAX-M8Q w/ PCB Mount Helical Antenna
+- Telemetry: Si4460 Radio Downlink w/ SMA Connector
 
+
+Bus Configuration:
+USART2 - MAX-M8Q
+I2C1 - MS5611
+SPI4 - Si4460
+SPI5 - MPU9250
+SDIO - uSD Card
