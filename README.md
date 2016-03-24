@@ -15,8 +15,8 @@ Specifications:
 
 
 Bus Configuration:
-USART2 - MAX-M8Q
-I2C1 - MS5611
-SPI4 - Si4460
-SPI5 - MPU9250
-SDIO - uSD Card
+- USART2 - MAX-M8Q
+- I2C1 - MS5611
+- SPI4 - Si4460
+- SPI5 - MPU9250
+- SDIO - uSD Card
