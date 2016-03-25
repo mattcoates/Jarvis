@@ -1,4 +1,4 @@
-update=Thu 24 Mar 2016 01:13:48 GMT
+update=Fri 25 Mar 2016 23:38:16 GMT
 version=1
 last_client=kicad
 [pcbnew]
@@ -57,5 +57,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/matt/Documents/CUSF/agg-kicad/agg-kicad
+LibName31=sma
 [general]
 version=1
