@@ -1,10 +1,10 @@
-#Jarvis Flight Computer
+#Jarvis Flight Computer & Ground Station
 
-Jarvis is a generic rocket flight computer for use in my level 1 & 2 certification attempt rockets.
+Jarvis is a generic rocket flight computer and ground station for use in my level 1 & 2 certification attempt rockets.
 
-Specifications:
+Flight Computer Specifications:
 - Size: 38mm Diameter x 80mm
-- Applications Processor: STM32F411CxUx
+- Processor: STM32F411CxUx
 - Power Supply: x1 Energizer L91 (AA) w/ Boost Coverter to 3.3v
 - Barometer: MS5611
 - Pyro Channels: x3 w/ Fire & Sense Functioniality
@@ -14,9 +14,9 @@ Specifications:
 - Telemetry: Si4460 Radio Downlink w/ SMA Connector
 
 
-Bus Configuration:
-- USART2 - MAX-M8Q
-- I2C1 - MS5611
-- SPI4 - Si4460
-- SPI5 - MPU9250
-- SDIO - uSD Card
+Ground Station Specifications:
+- Size: 20mm x 40mm Dongle
+- Processor: STM32F042G6
+- Power Supply: USB with ADP3335
+- Telemetry: Si4460 Radio Downlink w/ SMA Connector
+- Connectors: USB-A Male Plug
