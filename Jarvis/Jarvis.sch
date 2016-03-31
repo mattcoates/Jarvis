@@ -4099,4 +4099,25 @@ Text Notes 6051 9549 0    47   ~ 9
 X14
 Text Notes 6650 8250 0    60   Italic 0
 TODO: Select Wire, Heatshrink & Crimps
+Wire Wire Line
+	5900 7650 5950 7650
+Wire Wire Line
+	5950 7650 5950 7700
+$Comp
+L GND #PWR?
+U 1 1 56FD5801
+P 5950 7700
+F 0 "#PWR?" H 5950 7450 50  0001 C CNN
+F 1 "GND" H 5950 7550 50  0000 C CNN
+F 2 "" H 5950 7700 50  0000 C CNN
+F 3 "" H 5950 7700 50  0000 C CNN
+	1    5950 7700
+	1    0    0    -1  
+$EndComp
+Text Notes 11850 10100 0    60   Italic 0
+TODO: Add Test Points & M2 Mounts
+Text Notes 11850 10100 0    60   Italic 12
+TODO:
+Text Notes 6650 8250 0    60   Italic 12
+TODO:
 $EndSCHEMATC
