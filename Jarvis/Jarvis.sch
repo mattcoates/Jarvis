@@ -4555,4 +4555,28 @@ F 3 "" H 5850 1150 50  0001 C CNN
 	1    5850 1150
 	-1   0    0    1   
 $EndComp
+$Comp
+L PART X?
+U 1 1 5709D0FD
+P 6400 5900
+F 0 "X?" H 6450 6000 50  0000 L CNN
+F 1 "RF Frame" H 6450 5900 45  0000 L CNN
+F 2 "" H 6400 5900 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/BMI-S-201-F_Dwg.pdf" H 6400 5900 50  0001 C CNN
+F 4 "BMI-S-201-F" H 6400 5900 60  0001 C CNN "Digikey"
+	1    6400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X?
+U 1 1 5709E7BE
+P 7000 5900
+F 0 "X?" H 7050 6000 50  0000 L CNN
+F 1 "RF Cover" H 7050 5900 45  0000 L CNN
+F 2 "" H 7000 5900 50  0001 C CNN
+F 3 "http://dkc3.digikey.com/PDF/UK2011-EN/P0572.pdf" H 7000 5900 50  0001 C CNN
+F 4 "BMI-S-201-C" H 7000 5900 60  0001 C CNN "Digikey"
+	1    7000 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
