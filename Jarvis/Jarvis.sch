@@ -656,7 +656,7 @@ Text Label 3100 3750 0    60   ~ 0
 PYRO3_S
 Text Label 2100 5450 2    60   ~ 0
 BEEPER
-Text Label 2100 5350 2    60   ~ 0
+Text Label 2100 5250 2    60   ~ 0
 STAT_HBT
 Text Notes 8650 4000 0    69   ~ 14
 External Connectors:
@@ -672,7 +672,7 @@ F 4 "2456965" H 2300 3150 50  0001 L CNN "Farnell"
 	1    2600 5250
 	1    0    0    -1  
 $EndComp
-Text Label 2100 5250 2    60   ~ 0
+Text Label 2100 5350 2    60   ~ 0
 STAT_WRN
 $Comp
 L GND #PWR032
