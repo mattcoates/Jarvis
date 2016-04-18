@@ -2,7 +2,7 @@ Bill Of Materials
 =================
 
 Source file: Jarvis.xml
-Date: 2016-04-06T23:21:48.991412
+Date: 2016-04-19T00:48:53.564580
 
 Parts Missing Footprints
 ------------------------
@@ -20,6 +20,7 @@ X14    Crimp Tool
 X12    M Crimps x6    
 X7     Heat Shrink    
 X11    Housing x3     
+X16    RF Cover       
 
 Parts Missing Order Codes
 -------------------------
@@ -28,6 +29,55 @@ X13    F Crimps x17    None
 X6     Wire            None
 X12    M Crimps x6     None
 X7     Heat Shrink     None
+TP19   TESTPAD         agg:TESTPAD
+TP15   TESTPAD         agg:TESTPAD
+TP6    TESTPAD         agg:TESTPAD
+TP11   TESTPAD         agg:TESTPAD
+TP4    TESTPAD         agg:TESTPAD
+TP10   TESTPAD         agg:TESTPAD
+TP12   TESTPAD         agg:TESTPAD
+TP7    TESTPAD         agg:TESTPAD
+TP1    TESTPAD         agg:TESTPAD
+TP16   TESTPAD         agg:TESTPAD
+TP14   TESTPAD         agg:TESTPAD
+TP9    TESTPAD         agg:TESTPAD
+TP3    TESTPAD         agg:TESTPAD
+TP18   TESTPAD         agg:TESTPAD
+TP13   TESTPAD         agg:TESTPAD
+TP8    TESTPAD         agg:TESTPAD
+TP2    TESTPAD         agg:TESTPAD
+TP17   TESTPAD         agg:TESTPAD
+TP26   TESTPAD         agg:TESTPAD
+TP25   TESTPAD         agg:TESTPAD
+TP24   TESTPAD         agg:TESTPAD
+TP20   TESTPAD         agg:TESTPAD
+TP21   TESTPAD         agg:TESTPAD
+TP22   TESTPAD         agg:TESTPAD
+TP38   TESTPAD         agg:TESTPAD
+TP40   TESTPAD         agg:TESTPAD
+TP33   TESTPAD         agg:TESTPAD
+TP37   TESTPAD         agg:TESTPAD
+TP39   TESTPAD         agg:TESTPAD
+TP36   TESTPAD         agg:TESTPAD
+TP44   TESTPAD         agg:TESTPAD
+TP45   TESTPAD         agg:TESTPAD
+TP41   TESTPAD         agg:TESTPAD
+TP42   TESTPAD         agg:TESTPAD
+TP47   TESTPAD         agg:TESTPAD
+TP48   TESTPAD         agg:TESTPAD
+TP43   TESTPAD         agg:TESTPAD
+TP23   TESTPAD         agg:TESTPAD
+TP32   TESTPAD         agg:TESTPAD
+TP30   TESTPAD         agg:TESTPAD
+TP31   TESTPAD         agg:TESTPAD
+TP28   TESTPAD         agg:TESTPAD
+TP27   TESTPAD         agg:TESTPAD
+TP29   TESTPAD         agg:TESTPAD
+TP35   TESTPAD         agg:TESTPAD
+TP46   TESTPAD         agg:TESTPAD
+TP34   TESTPAD         agg:TESTPAD
+TP5    TESTPAD         agg:TESTPAD
+TP49   TESTPAD         agg:TESTPAD
 
 Inconsistent Order Codes
 ------------------------
@@ -37,7 +87,12 @@ Vendor Specific BOMs
 --------------------
   RS
   ~~
-883-7942P,1,,1x--MPU-9250--QFN-24-MPU9250--IC3
+883-7942,1,,1x--MPU-9250--QFN-24-MPU9250--IC3
+
+
+  Digikey
+  ~~~~~~~
+1,AI-1027-TWT-3V-R,1x SOUNDER AI-1027-TWT-3V-R LS1
 
 
   Farnell
@@ -47,19 +102,22 @@ Vendor Specific BOMs
 2455292,1,1x 2.2uH Neosid_Inductor_SM-NE
 2310320,2,2x 8.2pF 0402-L
 1760988,2,2x 18nH 0402-L
+2497715,1,1x RF Frame BMI-S-201-F
+2497714,1,1x RF Cover None
 1226390,1,1x LED 0603-LED
 1830730,1,1x Housing x1 None
 2072516,5,5x 1k 0402-L
-2072517,14,14x 10k 0402-L
+2072517,16,16x 10k 0402-L
 1568023,1,1x MICROUSB MICROUSB_MOLEX_475
 1830751,1,1x PYRO S06B-PASK-2
 1515785 ,2,2x 1.25R 0402-L
 2254940,1,1x ADP1607 LFCSP-2x2
 2496792,1,1x 100pF 0402-L
-2112849,2,2x 1uF 0603-L
+2112849,1,1x 1uF 0603-L
 1669639,3,3x 56nH 0402-L
 1510761 ,4,4x NFET SOT-23
 1894738,3,3x PFET SOT-23
+1759381,1,1x 1uF 0402-L
 2331061,1,1x 243k 0603-L
 1226372,3,3x LED 0603-LED
 2293260 ,1,1x AA Holder None
@@ -81,13 +139,12 @@ Vendor Specific BOMs
 2328003,1,1x S25FL127S WND008
 2506973,1,1x 30MHz XTAL-20x16
 2496800,1,1x 220pF 0402-L
-1358015,9,9x 100R 0402-L
+1358015,10,10x 100R 0402-L
 2456965,1,1x STM32F411CxUx QFN-48-EP-ST
 1885321,1,1x 5.1pF 0402-L
 2506952,1,1x 26MHz XTAL-20x16
-2368169,6,6x ESD_DIODE 0402-L
 2426952,2,2x 4.7uF 0402-L
-1827949,1,1x SOUNDER ABI-042-RC
+2368169,8,8x ESD_DIODE 0402-L
 2310308,1,1x 2.7pF 0402-L
 2215631,1,1x 220nH 0603-L
 1735379,1,1x ARM Switch None
@@ -109,32 +166,36 @@ HAB-SL1252R,1,1x P1 SMA-142-0701-801
 
 Assembly BOM
 ------------
-883-7942P            1   MPU-9250        QFN-24-MPU9250  IC3
+883-7942             1   MPU-9250        QFN-24-MPU9250  IC3
+AI-1027-TWT-3V-R     1   SOUNDER         AI-1027-TWT-3V-R LS1
 2524673              1   10nF            0402-L          C11
 2346896              1   2.2uF           0603-L          C32
 2455292              1   2.2uH           Neosid_Inductor_SM-NE29_SMD1008 L1
 2310320              2   8.2pF           0402-L          C26 C28
 1760988              2   18nH            0402-L          L4 L5
+2497715              1   RF Frame        BMI-S-201-F     X15
+2497714              1   RF Cover        None            X16
 1226390              1   LED             0603-LED        D4
 1830730              1   Housing x1      None            X10
 2072516              5   1k              0402-L          R21 R22 R23 R24 R25
-2072517              14  10k             0402-L          R1 R12 R13 R14 R15 R16 R17 R18 R19 R2 R20 R3 R35 R36
+2072517              16  10k             0402-L          R1 R12 R13 R14 R15 R16 R17 R18 R19 R2 R20 R27 R28 R3 R35 R36
 1568023              1   MICROUSB        MICROUSB_MOLEX_47589-0001 J4
 1830751              1   PYRO            S06B-PASK-2     J1
 1515785              2   1.25R           0402-L          FB1 FB2
 2254940              1   ADP1607         LFCSP-2x2       IC1
 2496792              1   100pF           0402-L          C35
-2112849              2   1uF             0603-L          C16 C33
+2112849              1   1uF             0603-L          C33
 1669639              3   56nH            0402-L          L2 L3 L6
 1510761              4   NFET            SOT-23          Q4 Q5 Q6 Q7
 1894738              3   PFET            SOT-23          Q1 Q2 Q3
+1759381              1   1uF             0402-L          C16
 2331061              1   243k            0603-L          R11
 1226372              3   LED             0603-LED        D1 D2 D3
 2293260              1   AA Holder       None            X4
 1657936              2   10uF            0805            C2 C3
 1863178              1   Red LED         None            X2
 1830747              1   PWR             S02B-PASK-2     J2
-1828860              18  100nF           0402-L          C1 C10 C12 C13 C14 C15 C17 C18 C20 C30 C31 C34 C37 C4 C5 C6 C8 C9
+1828860              18  100nF           0402-L          C1 C10 C12 C13 C14 C15 C17 C20 C29 C30 C31 C34 C37 C4 C5 C6 C8 C9
 1830726              1   Housing x4      None            X9
 1758939              2   8pF             0402-L          C21 C22
 1830728              1   Housing x1      None            X8
@@ -149,13 +210,12 @@ Assembly BOM
 2328003              1   S25FL127S       WND008          IC7
 2506973              1   30MHz           XTAL-20x16      Y2
 2496800              1   220pF           0402-L          C36
-1358015              9   100R            0402-L          R10 R26 R33 R34 R4 R5 R6 R8 R9
+1358015              10  100R            0402-L          R10 R26 R29 R33 R34 R4 R5 R6 R8 R9
 2456965              1   STM32F411CxUx   QFN-48-EP-ST    IC4
 1885321              1   5.1pF           0402-L          C23
 2506952              1   26MHz           XTAL-20x16      Y1
-2368169              6   ESD_DIODE       0402-L          D10 D5 D6 D7 D8 D9
 2426952              2   4.7uF           0402-L          C19 C7
-1827949              1   SOUNDER         ABI-042-RC      LS1
+2368169              8   ESD_DIODE       0402-L          D10 D11 D12 D5 D6 D7 D8 D9
 2310308              1   2.7pF           0402-L          C24
 2215631              1   220nH           0603-L          L7
 1735379              1   ARM Switch      None            X5
