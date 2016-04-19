@@ -1,4 +1,4 @@
-update=Tue 29 Mar 2016 00:43:12 BST
+update=Tue 19 Apr 2016 22:35:21 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/matt/Documents/CUSF/agg-kicad/agg-kicad
+[general]
+version=1
