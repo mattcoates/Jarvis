@@ -1,4 +1,4 @@
-update=Tue 19 Apr 2016 00:48:39 BST
+update=Tue 19 Apr 2016 19:57:27 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,15 @@ LibName28=contrib
 LibName29=valves
 LibName30=/home/matt/Documents/CUSF/agg-kicad/agg-kicad
 LibName31=/home/matt/Documents/CUSF/Jarvis/Library/sma
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
