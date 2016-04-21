@@ -2,16 +2,16 @@
 <export version="D">
   <design>
     <source>/home/matt/Documents/CUSF/Jarvis/Ground Station/Ground Station.sch</source>
-    <date>Thu 21 Apr 2016 23:12:27 BST</date>
+    <date>Thu 21 Apr 2016 23:26:02 BST</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Radio Ground Station</title>
+        <company>Cambridge University Space Flight</company>
+        <rev>1</rev>
+        <date>2016-04-21</date>
         <source>Ground Station.sch</source>
-        <comment number="1" value=""/>
+        <comment number="1" value="Matthew Coates"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>

@@ -37,11 +37,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Radio Ground Station"
+Date "2016-04-21"
+Rev "1"
+Comp "Cambridge University Space Flight"
+Comment1 "Matthew Coates"
 Comment2 ""
 Comment3 ""
 Comment4 ""
