@@ -2,11 +2,12 @@ Bill Of Materials
 =================
 
 Source file: Ground Station.xml
-Date: 2016-04-21T23:26:02.843461
+Date: 2016-04-23T23:28:34.992018
 
 Parts Missing Footprints
 ------------------------
 X2     RF Cover       
+X3     Casing         
 
 Parts Missing Order Codes
 -------------------------
@@ -41,6 +42,7 @@ SMA-J-P-H-ST-EM1,1,1x P1 SMA-J-P-H-ST-EM1
 2310320,2,2x 8.2pF 0402-L
 2497715,1,1x RF Frame BMI-S-201-F
 2497714,1,1x RF Cover None
+1226390,1,1x LED 0603-LED
 2368169,1,1x ESD_DIODE 0402-L
 2067044,1,1x USB-PLUG MOLEX  48037-0001
 2067775,1,1x ADP3335 MSOP-8
@@ -49,6 +51,7 @@ SMA-J-P-H-ST-EM1,1,1x P1 SMA-J-P-H-ST-EM1
 2112849,1,1x 1uF 0603-L
 2346896,3,3x 2.2uF 0603-L
 1759381,1,1x 1uF 0402-L
+1226372,1,1x LED 0603-LED
 1828860,7,7x 100nF 0402-L
 1669639,3,3x 56nH 0402-L
 1973025,1,1x 15pF 0402-L
@@ -63,7 +66,9 @@ SMA-J-P-H-ST-EM1,1,1x P1 SMA-J-P-H-ST-EM1
 1885321,1,1x 5.1pF 0402-L
 1535558,1,1x 1nF 0402-L
 2506952,1,1x 26MHz XTAL-20x16
+1210437,1,1x Casing None
 2426952,1,1x 4.7uF 0402-L
+2072516,2,2x 1k 0402-L
 1469661,1,1x 0R 0402-L
 2215631,1,1x 220nH 0603-L
 
@@ -75,6 +80,7 @@ SMA-J-P-H-ST-EM1     1   SMA             SMA-J-P-H-ST-EM1 P1
 2310320              2   8.2pF           0402-L          C7 C9
 2497715              1   RF Frame        BMI-S-201-F     X1
 2497714              1   RF Cover        None            X2
+1226390              1   LED             0603-LED        D3
 2368169              1   ESD_DIODE       0402-L          D1
 2067044              1   USB-PLUG        MOLEX  48037-0001 J1
 2067775              1   ADP3335         MSOP-8          IC1
@@ -83,6 +89,7 @@ SMA-J-P-H-ST-EM1     1   SMA             SMA-J-P-H-ST-EM1 P1
 2112849              1   1uF             0603-L          C12
 2346896              3   2.2uF           0603-L          C11 C5 C6
 1759381              1   1uF             0402-L          C21
+1226372              1   LED             0603-LED        D2
 1828860              7   100nF           0402-L          C10 C13 C16 C19 C20 C23 C24
 1669639              3   56nH            0402-L          L1 L2 L5
 1973025              1   15pF            0402-L          C8
@@ -97,7 +104,9 @@ SMA-J-P-H-ST-EM1     1   SMA             SMA-J-P-H-ST-EM1 P1
 1885321              1   5.1pF           0402-L          C1
 1535558              1   1nF             0402-L          C2
 2506952              1   26MHz           XTAL-20x16      Y2
+1210437              1   Casing          None            X3
 2426952              1   4.7uF           0402-L          C22
+2072516              2   1k              0402-L          R3 R4
 1469661              1   0R              0402-L          R1
 2215631              1   220nH           0603-L          L6
 

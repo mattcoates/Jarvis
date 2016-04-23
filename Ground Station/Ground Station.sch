@@ -1217,7 +1217,7 @@ Wire Notes Line
 Wire Notes Line
 	4150 500  4150 7800
 Wire Notes Line
-	9250 3200 9250 500 
+	9250 4600 9250 500 
 Wire Wire Line
 	850  4550 1150 4550
 Wire Wire Line
@@ -1313,9 +1313,6 @@ Wire Wire Line
 	2850 4400 2950 4400
 Wire Wire Line
 	2850 4500 2950 4500
-NoConn ~ 2850 3800
-NoConn ~ 2850 3900
-NoConn ~ 2850 4700
 Wire Wire Line
 	2850 4100 2950 4100
 Text Label 2950 4100 0    60   ~ 0
@@ -1350,9 +1347,9 @@ F 3 "" H 1400 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 1250 1400 1250
+	1400 1250 1300 1250
 Wire Wire Line
-	1400 1250 1400 1100
+	1400 1100 1400 1250
 $Comp
 L 5v #PWR043
 U 1 1 57195F25
@@ -1391,9 +1388,9 @@ Wire Wire Line
 	2550 1400 2500 1400
 Connection ~ 2500 1400
 Wire Wire Line
-	3150 1600 3200 1600
+	3200 1600 3150 1600
 Wire Wire Line
-	3200 1600 3200 1300
+	3200 1300 3200 1600
 Wire Wire Line
 	3150 1400 3400 1400
 Connection ~ 3200 1400
@@ -1712,7 +1709,7 @@ Wire Wire Line
 Text Notes 4300 3400 0    69   ~ 14
 Flash:
 Wire Notes Line
-	4150 4600 7250 4600
+	4150 4600 9250 4600
 Wire Notes Line
 	7250 4600 7250 3200
 Text Label 2950 4000 0    60   ~ 0
@@ -1765,4 +1762,114 @@ Text Notes 3550 3400 0    60   Italic 0
 COMPLETE
 Text Notes 6650 3400 0    60   Italic 0
 COMPLETE
+$Comp
+L PART X3
+U 1 1 571A249D
+P 10600 6950
+F 0 "X3" H 10650 7050 50  0000 L CNN
+F 1 "Casing" H 10650 6950 45  0000 L CNN
+F 2 "" H 10600 6950 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/24163.pdf" H 10600 6950 50  0001 C CNN
+F 4 "1210437" H 10600 6950 60  0001 C CNN "Farnell"
+	1    10600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 571C20A4
+P 8550 4100
+F 0 "D3" H 8550 4200 50  0000 C CNN
+F 1 "LED" H 8550 4000 50  0000 C CNN
+F 2 "agg:0603-LED" H 8550 4100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/302470.pdf" H 8550 4100 50  0001 C CNN
+F 4 "1226390" H 8550 4100 60  0001 C CNN "Farnell"
+	1    8550 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR058
+U 1 1 571C20AB
+P 7750 4300
+F 0 "#PWR058" H 7750 4050 50  0001 C CNN
+F 1 "GND" H 7750 4150 50  0000 C CNN
+F 2 "" H 7750 4300 50  0000 C CNN
+F 3 "" H 7750 4300 50  0000 C CNN
+	1    7750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR059
+U 1 1 571C20B1
+P 8550 4300
+F 0 "#PWR059" H 8550 4050 50  0001 C CNN
+F 1 "GND" H 8550 4150 50  0000 C CNN
+F 2 "" H 8550 4300 50  0000 C CNN
+F 3 "" H 8550 4300 50  0000 C CNN
+	1    8550 4300
+	1    0    0    -1  
+$EndComp
+Text Label 7800 3650 0    60   ~ 0
+STAT_HBT
+Text Label 8600 3650 0    60   ~ 0
+STAT_WRN
+$Comp
+L LED D2
+U 1 1 571C20BA
+P 7750 4100
+F 0 "D2" H 7750 4200 50  0000 C CNN
+F 1 "LED" H 7750 4000 50  0000 C CNN
+F 2 "agg:0603-LED" H 7750 4100 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1693302.pdf" H 7750 4100 50  0001 C CNN
+F 4 "1226372" H 7750 4100 60  0001 C CNN "Farnell"
+	1    7750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 571C20C2
+P 7750 3800
+F 0 "R3" H 7800 3850 50  0000 L CNN
+F 1 "1k" H 7800 3750 50  0000 L CNN
+F 2 "agg:0402-L" H 7750 3800 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716705.pdf" H 7750 3800 50  0001 C CNN
+F 4 "2072516" H 7750 3800 60  0001 C CNN "Farnell"
+	1    7750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R4
+U 1 1 571C20CA
+P 8550 3800
+F 0 "R4" H 8600 3850 50  0000 L CNN
+F 1 "1k" H 8600 3750 50  0000 L CNN
+F 2 "agg:0402-L" H 8550 3800 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1716705.pdf" H 8550 3800 50  0001 C CNN
+F 4 "2072516" H 8550 3800 60  0001 C CNN "Farnell"
+	1    8550 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3700 7750 3650
+Wire Wire Line
+	7750 3650 7800 3650
+Wire Wire Line
+	8550 3700 8550 3650
+Wire Wire Line
+	8550 3650 8600 3650
+Text Label 2950 3800 0    60   ~ 0
+STAT_HBT
+Text Label 2950 3900 0    60   ~ 0
+STAT_WRN
+Wire Wire Line
+	2850 3800 2950 3800
+Wire Wire Line
+	2950 3900 2850 3900
+Text Notes 7400 3400 0    69   ~ 14
+Status:
+Text Notes 8700 3400 0    60   Italic 0
+COMPLETE
+Text Label 3000 4700 0    60   ~ 0
+FLASH_RST
+Wire Wire Line
+	3000 4700 2850 4700
 $EndSCHEMATC
