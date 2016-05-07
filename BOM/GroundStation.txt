@@ -1,3 +1,4 @@
+Info messages:
 Bill Of Materials
 =================
 
@@ -109,4 +110,6 @@ SMA-J-P-H-ST-EM1     1   SMA             SMA-J-P-H-ST-EM1 P1
 2072516              2   1k              0402-L          R3 R4
 1469661              1   0R              0402-L          R1
 2215631              1   220nH           0603-L          L6
+
+
 

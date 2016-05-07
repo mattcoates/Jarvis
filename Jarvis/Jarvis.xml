@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/matt/Documents/CUSF/Jarvis/Jarvis/Jarvis.sch</source>
-    <date>Sun 24 Apr 2016 00:01:30 BST</date>
+    <date>Mon 25 Apr 2016 19:19:00 BST</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -153,7 +153,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -219,7 +219,7 @@
       <footprint>agg:0603-LED</footprint>
       <datasheet>http://www.farnell.com/datasheets/1693302.pdf</datasheet>
       <fields>
-        <field name="Farnell">1226372</field>
+        <field name="Farnell">1328306</field>
       </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
@@ -230,7 +230,7 @@
       <footprint>agg:0603-LED</footprint>
       <datasheet>http://www.farnell.com/datasheets/302470.pdf</datasheet>
       <fields>
-        <field name="Farnell">1226390</field>
+        <field name="Farnell">1328309</field>
       </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
@@ -274,7 +274,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1446011.pdf</datasheet>
       <fields>
-        <field name="Farnell">1973025</field>
+        <field name="Farnell">2496795</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -373,7 +373,7 @@
       <footprint>Library:SMA-142-0701-801</footprint>
       <datasheet>http://www.farnell.com/datasheets/493539.pdf</datasheet>
       <fields>
-        <field name="Farnell">1608592</field>
+        <field name="Farnell">1019325</field>
       </fields>
       <libsource lib="sma" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
@@ -448,7 +448,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/2009679.pdf</datasheet>
       <fields>
-        <field name="Farnell">2524673</field>
+        <field name="Farnell">1414575</field>
       </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -679,7 +679,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -690,7 +690,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -701,7 +701,7 @@
       <footprint>agg:0603-LED</footprint>
       <datasheet>http://www.farnell.com/datasheets/1693302.pdf</datasheet>
       <fields>
-        <field name="Farnell">1226372</field>
+        <field name="Farnell">1328306</field>
       </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
@@ -712,7 +712,7 @@
       <footprint>agg:0603-LED</footprint>
       <datasheet>http://www.farnell.com/datasheets/1693302.pdf</datasheet>
       <fields>
-        <field name="Farnell">1226372</field>
+        <field name="Farnell">1328306</field>
       </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
@@ -777,7 +777,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -876,7 +876,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -887,7 +887,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -931,7 +931,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -942,7 +942,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -953,7 +953,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1199,12 +1199,18 @@
     <comp ref="X13">
       <value>F Crimps x17</value>
       <datasheet>http://www.farnell.com/datasheets/621888.pdf</datasheet>
+      <fields>
+        <field name="RS">688-1381</field>
+      </fields>
       <libsource lib="agg-kicad" part="PART"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56FCE6CE</tstamp>
     </comp>
     <comp ref="X6">
       <value>Wire</value>
+      <fields>
+        <field name="Farnell">2367724</field>
+      </fields>
       <libsource lib="agg-kicad" part="PART"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56FE03D1</tstamp>
@@ -1220,12 +1226,18 @@
     </comp>
     <comp ref="X12">
       <value>M Crimps x6</value>
+      <fields>
+        <field name="Farnell">1830754</field>
+      </fields>
       <libsource lib="agg-kicad" part="PART"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56FE0832</tstamp>
     </comp>
     <comp ref="X7">
       <value>Heat Shrink</value>
+      <fields>
+        <field name="Farnell">1210349</field>
+      </fields>
       <libsource lib="agg-kicad" part="PART"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>56FE2F68</tstamp>
@@ -1332,7 +1344,7 @@
       <footprint>agg:0402-L</footprint>
       <datasheet>http://www.farnell.com/datasheets/1729045.pdf</datasheet>
       <fields>
-        <field name="Farnell">1358015</field>
+        <field name="Farnell">2072515</field>
       </fields>
       <libsource lib="device" part="R_Small"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1767,6 +1779,33 @@
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5718C111</tstamp>
+    </comp>
+    <comp ref="X17">
+      <value>Heat Shrink</value>
+      <fields>
+        <field name="Farnell">1210365</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571ECFBC</tstamp>
+    </comp>
+    <comp ref="X18">
+      <value>Heat Shrink</value>
+      <fields>
+        <field name="Farnell"> 1210405</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571ED208</tstamp>
+    </comp>
+    <comp ref="X19">
+      <value>Heat Shrink</value>
+      <fields>
+        <field name="Farnell">1210381</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571ED451</tstamp>
     </comp>
   </components>
   <libparts>

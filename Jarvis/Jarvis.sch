@@ -191,7 +191,7 @@ U 1 1 56F08613
 P 1600 950
 F 0 "L1" H 1630 990 50  0000 L CNN
 F 1 "2.2uH" H 1650 900 50  0000 L CNN
-F 2 "Inductors_NEOSID:Neosid_Inductor_SM-NE29_SMD1008" H 1600 950 50  0001 C CNN
+F 2 "Library:VLF252012MT" H 1600 950 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1759590.pdf" H 1600 950 50  0001 C CNN
 F 4 "2455292" H 1600 950 60  0001 C CNN "Farnell"
 	1    1600 950 
@@ -331,7 +331,7 @@ F 0 "R26" H 2050 5850 50  0000 L CNN
 F 1 "100R" H 2050 5750 50  0000 L CNN
 F 2 "agg:0402-L" H 2000 5800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 2000 5800 50  0001 C CNN
-F 4 "1358015" H 2000 5800 60  0001 C CNN "Farnell"
+F 4 "2072515" H 2000 5800 60  0001 C CNN "Farnell"
 	1    2000 5800
 	0    -1   1    0   
 $EndComp
@@ -682,7 +682,7 @@ Text Label 11700 4550 0    60   ~ 0
 PYRO2
 Text Label 11700 4750 0    60   ~ 0
 PYRO3
-Text Notes 7550 9220 0    47   ~ 0
+Text Notes 8450 9220 0    47   ~ 0
 Camera will have its\nown power supply ect.
 $Comp
 L GND #PWR032
@@ -758,7 +758,7 @@ F 0 "D1" H 12650 4900 50  0000 C CNN
 F 1 "LED" H 12650 4700 50  0000 C CNN
 F 2 "agg:0603-LED" H 12650 4800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1693302.pdf" H 12650 4800 50  0001 C CNN
-F 4 "1226372" H 12650 4800 60  0001 C CNN "Farnell"
+F 4 "1328306" H 12650 4800 60  0001 C CNN "Farnell"
 	1    12650 4800
 	0    -1   -1   0   
 $EndComp
@@ -770,7 +770,7 @@ F 0 "D4" H 15000 4900 50  0000 C CNN
 F 1 "LED" H 15000 4700 50  0000 C CNN
 F 2 "agg:0603-LED" H 15000 4800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/302470.pdf" H 15000 4800 50  0001 C CNN
-F 4 "1226390" H 15000 4800 60  0001 C CNN "Farnell"
+F 4 "1328309" H 15000 4800 60  0001 C CNN "Farnell"
 	1    15000 4800
 	0    -1   -1   0   
 $EndComp
@@ -1000,7 +1000,7 @@ F 0 "C27" H 7310 6820 39  0000 L CNN
 F 1 "15pF" H 7310 6670 39  0000 L CNN
 F 2 "agg:0402-L" H 7300 6750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1446011.pdf" H 7300 6750 50  0001 C CNN
-F 4 "1973025" H 7300 6750 60  0001 C CNN "Farnell"
+F 4 "2496795" H 7300 6750 60  0001 C CNN "Farnell"
 	1    7300 6750
 	1    0    0    -1  
 $EndComp
@@ -1207,7 +1207,7 @@ F 0 "P2" H 8400 6500 60  0000 C CNN
 F 1 "SMA" H 8400 6700 60  0000 C CNN
 F 2 "Library:SMA-142-0701-801" H 8300 6600 60  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/493539.pdf" H 8300 6600 60  0001 C CNN
-F 4 "1608592" H 8300 6600 60  0001 C CNN "Farnell"
+F 4 "1019325" H 8300 6600 60  0001 C CNN "Farnell"
 	1    8300 6600
 	1    0    0    1   
 $EndComp
@@ -1485,7 +1485,7 @@ F 0 "C11" H 5210 3970 50  0000 L CNN
 F 1 "10nF" H 5210 3820 50  0000 L CNN
 F 2 "agg:0402-L" H 5200 3900 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2009679.pdf" H 5200 3900 50  0001 C CNN
-F 4 "2524673" H 5200 3900 60  0001 C CNN "Farnell"
+F 4 "1414575" H 5200 3900 60  0001 C CNN "Farnell"
 	1    5200 3900
 	-1   0    0    -1  
 $EndComp
@@ -2029,7 +2029,7 @@ F 0 "R34" H 10100 7050 50  0000 L CNN
 F 1 "100R" H 10100 6950 50  0000 L CNN
 F 2 "agg:0402-L" H 10050 7000 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 10050 7000 50  0001 C CNN
-F 4 "1358015" H 10050 7000 60  0001 C CNN "Farnell"
+F 4 "2072515" H 10050 7000 60  0001 C CNN "Farnell"
 	1    10050 7000
 	0    -1   1    0   
 $EndComp
@@ -2041,7 +2041,7 @@ F 0 "R33" H 10400 6650 50  0000 L CNN
 F 1 "100R" H 10400 6550 50  0000 L CNN
 F 2 "agg:0402-L" H 10350 6600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 10350 6600 50  0001 C CNN
-F 4 "1358015" H 10350 6600 60  0001 C CNN "Farnell"
+F 4 "2072515" H 10350 6600 60  0001 C CNN "Farnell"
 	1    10350 6600
 	-1   0    0    -1  
 $EndComp
@@ -2055,7 +2055,7 @@ F 0 "D2" H 13450 4900 50  0000 C CNN
 F 1 "LED" H 13450 4700 50  0000 C CNN
 F 2 "agg:0603-LED" H 13450 4800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1693302.pdf" H 13450 4800 50  0001 C CNN
-F 4 "1226372" H 13450 4800 60  0001 C CNN "Farnell"
+F 4 "1328306" H 13450 4800 60  0001 C CNN "Farnell"
 	1    13450 4800
 	0    -1   -1   0   
 $EndComp
@@ -2067,7 +2067,7 @@ F 0 "D3" H 14200 4900 50  0000 C CNN
 F 1 "LED" H 14200 4700 50  0000 C CNN
 F 2 "agg:0603-LED" H 14200 4800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1693302.pdf" H 14200 4800 50  0001 C CNN
-F 4 "1226372" H 14200 4800 60  0001 C CNN "Farnell"
+F 4 "1328306" H 14200 4800 60  0001 C CNN "Farnell"
 	1    14200 4800
 	0    -1   -1   0   
 $EndComp
@@ -2143,7 +2143,7 @@ F 0 "R8" H 9450 1650 50  0000 L CNN
 F 1 "100R" H 9450 1550 50  0000 L CNN
 F 2 "agg:0402-L" H 9400 1600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 9400 1600 50  0001 C CNN
-F 4 "1358015" H 9400 1600 60  0001 C CNN "Farnell"
+F 4 "2072515" H 9400 1600 60  0001 C CNN "Farnell"
 	1    9400 1600
 	0    -1   -1   0   
 $EndComp
@@ -2251,7 +2251,7 @@ F 0 "R9" H 11900 1650 50  0000 L CNN
 F 1 "100R" H 11900 1550 50  0000 L CNN
 F 2 "agg:0402-L" H 11850 1600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 11850 1600 50  0001 C CNN
-F 4 "1358015" H 11850 1600 60  0001 C CNN "Farnell"
+F 4 "2072515" H 11850 1600 60  0001 C CNN "Farnell"
 	1    11850 1600
 	0    -1   -1   0   
 $EndComp
@@ -2263,7 +2263,7 @@ F 0 "R10" H 14350 1650 50  0000 L CNN
 F 1 "100R" H 14350 1550 50  0000 L CNN
 F 2 "agg:0402-L" H 14300 1600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 14300 1600 50  0001 C CNN
-F 4 "1358015" H 14300 1600 60  0001 C CNN "Farnell"
+F 4 "2072515" H 14300 1600 60  0001 C CNN "Farnell"
 	1    14300 1600
 	0    -1   -1   0   
 $EndComp
@@ -2311,7 +2311,7 @@ F 0 "R6" H 14950 1350 50  0000 L CNN
 F 1 "100R" H 14950 1250 50  0000 L CNN
 F 2 "agg:0402-L" H 14900 1300 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 14900 1300 50  0001 C CNN
-F 4 "1358015" H 14900 1300 60  0001 C CNN "Farnell"
+F 4 "2072515" H 14900 1300 60  0001 C CNN "Farnell"
 	1    14900 1300
 	0    -1   1    0   
 $EndComp
@@ -2323,7 +2323,7 @@ F 0 "R5" H 12500 1350 50  0000 L CNN
 F 1 "100R" H 12500 1250 50  0000 L CNN
 F 2 "agg:0402-L" H 12450 1300 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 12450 1300 50  0001 C CNN
-F 4 "1358015" H 12450 1300 60  0001 C CNN "Farnell"
+F 4 "2072515" H 12450 1300 60  0001 C CNN "Farnell"
 	1    12450 1300
 	0    -1   1    0   
 $EndComp
@@ -2335,7 +2335,7 @@ F 0 "R4" H 10050 1350 50  0000 L CNN
 F 1 "100R" H 10050 1250 50  0000 L CNN
 F 2 "agg:0402-L" H 10000 1300 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 10000 1300 50  0001 C CNN
-F 4 "1358015" H 10000 1300 60  0001 C CNN "Farnell"
+F 4 "2072515" H 10000 1300 60  0001 C CNN "Farnell"
 	1    10000 1300
 	0    -1   1    0   
 $EndComp
@@ -2431,10 +2431,10 @@ F 4 "1830751" H 10950 4350 60  0001 C CNN "Farnell"
 	1    10950 4350
 	1    0    0    -1  
 $EndComp
-Text Notes 7550 9460 0    47   ~ 0
+Text Notes 8450 9450 0    47   ~ 0
 Red 3mm LED wired in\nparallel with keyswitch\nto provide pyro status.
 Text Notes 4450 9550 0    47   ~ 0
-X1 434MHz Stubby Radio Antenna\nX2 Red Indicator LED for Pyro Arming\nX3 Energizer L91 Lithium Ultimate AA\nX4 AA Battery Holder\nX5 Key Switch for Arming Pyrotechnics\nX6 Wire\nX7 Heatshrink
+X1 434MHz Stubby Radio Antenna\nX2 Red Indicator LED for Pyro Arming\nX3 Energizer L91 Lithium Ultimate AA\nX4 AA Battery Holder\nX5 Key Switch for Arming Pyrotechnics\nX6 Wire\nX7 Black Heatshrink
 $Comp
 L CONN_01x03 J3
 U 1 1 56FECBFE
@@ -2517,9 +2517,9 @@ F 3 "" H 1100 1750 50  0001 C CNN
 	1    1100 1750
 	0    -1   -1   0   
 $EndComp
-Text Notes 7550 9050 0    55   ~ 11
+Text Notes 8450 9050 0    55   ~ 11
 Notes:
-Text Notes 7550 9700 0    47   ~ 0
+Text Notes 8450 9700 0    47   ~ 0
 External HBT & Status\nindication will be done\nthrough sounder & radio
 Text Notes 4451 9122 0    47   ~ 9
 X1
@@ -2683,6 +2683,7 @@ F 0 "X13" H 7200 8950 50  0000 L CNN
 F 1 "F Crimps x17" H 7200 8850 43  0000 L CNN
 F 2 "" H 7150 8850 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/621888.pdf" H 7150 8850 50  0001 C CNN
+F 4 "688-1381" H 7150 8850 60  0001 C CNN "RS"
 	1    7150 8850
 	1    0    0    -1  
 $EndComp
@@ -2694,6 +2695,7 @@ F 0 "X6" H 7200 8700 50  0000 L CNN
 F 1 "Wire" H 7200 8600 50  0000 L CNN
 F 2 "" H 7150 8600 50  0001 C CNN
 F 3 "" H 7150 8600 50  0001 C CNN
+F 4 "2367724" H 7150 8600 60  0001 C CNN "Farnell"
 	1    7150 8600
 	1    0    0    -1  
 $EndComp
@@ -2717,6 +2719,7 @@ F 0 "X12" H 6650 8950 50  0000 L CNN
 F 1 "M Crimps x6" H 6650 8850 43  0000 L CNN
 F 2 "" H 6600 8850 50  0001 C CNN
 F 3 "" H 6600 8850 50  0001 C CNN
+F 4 "1830754" H 6600 8850 60  0001 C CNN "Farnell"
 	1    6600 8850
 	1    0    0    -1  
 $EndComp
@@ -2728,6 +2731,7 @@ F 0 "X7" H 7750 8700 50  0000 L CNN
 F 1 "Heat Shrink" H 7750 8600 50  0000 L CNN
 F 2 "" H 7700 8600 50  0001 C CNN
 F 3 "" H 7700 8600 50  0001 C CNN
+F 4 "1210349" H 7700 8600 60  0001 C CNN "Farnell"
 	1    7700 8600
 	1    0    0    -1  
 $EndComp
@@ -2763,8 +2767,6 @@ Text Notes 6050 9478 0    47   ~ 9
 X13
 Text Notes 6051 9549 0    47   ~ 9
 X14
-Text Notes 6650 8250 0    60   Italic 0
-TODO: Select Wire, Heatshrink & Crimps
 $Comp
 L GND #PWR0101
 U 1 1 56FD5801
@@ -2776,8 +2778,6 @@ F 3 "" H 5950 7700 50  0000 C CNN
 	1    5950 7700
 	1    0    0    -1  
 $EndComp
-Text Notes 6650 8250 0    60   Italic 12
-TODO:
 $Comp
 L ESD_DIODE D5
 U 1 1 5701E2FD
@@ -2922,7 +2922,7 @@ U 1 1 57058021
 P 14950 6600
 F 0 "IC7" H 14750 6900 50  0000 L CNN
 F 1 "S25FL127S" H 14750 6300 50  0000 L CNN
-F 2 "agg:WND008" H 14750 6200 50  0001 L CNN
+F 2 "agg:S25FL127S" H 14750 6200 50  0001 L CNN
 F 3 "https://www.spansion.com/Support/Datasheets/S25FL127S_00.pdf" H 14750 6100 50  0001 L CNN
 F 4 "2328003" H 14750 6000 50  0001 L CNN "Farnell"
 	1    14950 6600
@@ -3037,7 +3037,7 @@ F 0 "R29" H 10600 6650 50  0000 L CNN
 F 1 "100R" H 10600 6550 50  0000 L CNN
 F 2 "agg:0402-L" H 10550 6600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1729045.pdf" H 10550 6600 50  0001 C CNN
-F 4 "1358015" H 10550 6600 60  0001 C CNN "Farnell"
+F 4 "2072515" H 10550 6600 60  0001 C CNN "Farnell"
 	1    10550 6600
 	1    0    0    -1  
 $EndComp
@@ -3738,7 +3738,7 @@ Wire Wire Line
 Wire Wire Line
 	11150 4450 11150 5000
 Wire Notes Line
-	8550 9800 500  9800
+	500  9800 9450 9800
 Wire Notes Line
 	4250 500  4250 9800
 Wire Notes Line
@@ -4333,8 +4333,6 @@ Wire Wire Line
 	1800 5800 1900 5800
 Wire Wire Line
 	1800 5600 2150 5600
-Wire Notes Line
-	8550 500  8550 9800
 Wire Wire Line
 	5950 7650 5950 7700
 Wire Wire Line
@@ -4651,4 +4649,48 @@ F 4 "1828860" H 800 4600 60  0001 C CNN "Farnell"
 	1    800  4600
 	1    0    0    -1  
 $EndComp
+$Comp
+L PART X17
+U 1 1 571ECFBC
+P 8250 8600
+F 0 "X17" H 8300 8700 50  0000 L CNN
+F 1 "Heat Shrink" H 8300 8600 50  0000 L CNN
+F 2 "" H 8250 8600 50  0001 C CNN
+F 3 "" H 8250 8600 50  0001 C CNN
+F 4 "1210365" H 8250 8600 60  0001 C CNN "Farnell"
+	1    8250 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X18
+U 1 1 571ED208
+P 8800 8600
+F 0 "X18" H 8850 8700 50  0000 L CNN
+F 1 "Heat Shrink" H 8850 8600 50  0000 L CNN
+F 2 "" H 8800 8600 50  0001 C CNN
+F 3 "" H 8800 8600 50  0001 C CNN
+F 4 " 1210405" H 8800 8600 60  0001 C CNN "Farnell"
+	1    8800 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X19
+U 1 1 571ED451
+P 8250 8850
+F 0 "X19" H 8300 8950 50  0000 L CNN
+F 1 "Heat Shrink" H 8300 8850 50  0000 L CNN
+F 2 "" H 8250 8850 50  0001 C CNN
+F 3 "" H 8250 8850 50  0001 C CNN
+F 4 "1210381" H 8250 8850 60  0001 C CNN "Farnell"
+	1    8250 8850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	8550 8100 8550 500 
+Wire Notes Line
+	9450 9800 9450 8100
+Text Notes 8900 8300 0    60   Italic 0
+COMPLETE
+Text Notes 7000 9250 0    47   ~ 0
+X17 Red Heatshrink\nX18 Blue Heatshrink\nX19 Yellow Heatshrink
 $EndSCHEMATC

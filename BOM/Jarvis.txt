@@ -1,8 +1,9 @@
+Info messages:
 Bill Of Materials
 =================
 
 Source file: Jarvis.xml
-Date: 2016-04-19T19:52:06.596366
+Date: 2016-04-25T19:19:00.261018
 
 Parts Missing Footprints
 ------------------------
@@ -21,14 +22,13 @@ X12    M Crimps x6
 X7     Heat Shrink    
 X11    Housing x3     
 X16    RF Cover       
+X17    Heat Shrink    
+X18    Heat Shrink    
+X19    Heat Shrink    
 
 Parts Missing Order Codes
 -------------------------
 P3     SWD_TC          agg:TC2030-NL
-X13    F Crimps x17    None
-X6     Wire            None
-X12    M Crimps x6     None
-X7     Heat Shrink     None
 TP19   TESTPAD         agg:TESTPAD
 TP15   TESTPAD         agg:TESTPAD
 TP6    TESTPAD         agg:TESTPAD
@@ -87,6 +87,7 @@ Vendor Specific BOMs
 --------------------
   RS
   ~~
+688-1381,1,,1x--F Crimps x17--None--X13
 883-7942,1,,1x--MPU-9250--QFN-24-MPU9250--IC3
 
 
@@ -97,21 +98,26 @@ Vendor Specific BOMs
 
   Farnell
   ~~~~~~~
-2524673,1,1x 10nF 0402-L
+2367724,1,1x Wire None
 2346896,1,1x 2.2uF 0603-L
 2455292,1,1x 2.2uH Neosid_Inductor_SM-NE
+1210349,1,1x Heat Shrink None
 2310320,2,2x 8.2pF 0402-L
-1760988,2,2x 18nH 0402-L
+2456965,1,1x STM32F411CxUx QFN-48-EP-ST
 2497715,1,1x RF Frame BMI-S-201-F
 2497714,1,1x RF Cover None
-1226390,1,1x LED 0603-LED
+1414575,1,1x 10nF 0402-L
 1830730,1,1x Housing x1 None
 2072516,5,5x 1k 0402-L
 2072517,16,16x 10k 0402-L
 1568023,1,1x MICROUSB MICROUSB_MOLEX_475
+2072515,10,10x 100R 0402-L
 1830751,1,1x PYRO S06B-PASK-2
+1019325,1,1x SMA SMA-142-0701-801
 1515785 ,2,2x 1.25R 0402-L
+1830754,1,1x M Crimps x6 None
 2254940,1,1x ADP1607 LFCSP-2x2
+2496795,1,1x 15pF 0402-L
 2496792,1,1x 100pF 0402-L
 2112849,1,1x 1uF 0603-L
 1669639,3,3x 56nH 0402-L
@@ -119,18 +125,18 @@ Vendor Specific BOMs
 1894738,3,3x PFET SOT-23
 1759381,1,1x 1uF 0402-L
 2331061,1,1x 243k 0603-L
-1226372,3,3x LED 0603-LED
 2293260 ,1,1x AA Holder None
 1657936,2,2x 10uF 0805
 1863178,1,1x Red LED None
+1328306,3,3x LED 0603-LED
 1830747,1,1x PWR S02B-PASK-2
 1828860,18,18x 100nF 0402-L
+1210365,1,1x Heat Shrink None
 1830726,1,1x Housing x4 None
 1758939,2,2x 8pF 0402-L
 1830728,1,1x Housing x1 None
-1973025,1,1x 15pF 0402-L
 1830748,1,1x ARM S03B-PASK-2
-1608592,1,1x SMA SMA-142-0701-801
+1328309,1,1x LED 0603-LED
 2362662,1,1x MS5611-01BA03 MS5611
 1885342,1,1x 18pF 0402-L
 2462635,1,1x Si4460 QFN-20-EP-SI
@@ -139,16 +145,17 @@ Vendor Specific BOMs
 2328003,1,1x S25FL127S WND008
 2506973,1,1x 30MHz XTAL-20x16
 2496800,1,1x 220pF 0402-L
-1358015,10,10x 100R 0402-L
-2456965,1,1x STM32F411CxUx QFN-48-EP-ST
-1885321,1,1x 5.1pF 0402-L
+1210381,1,1x Heat Shrink None
 2506952,1,1x 26MHz XTAL-20x16
+ 1210405,1,1x Heat Shrink None
+1760988,2,2x 18nH 0402-L
+1885321,1,1x 5.1pF 0402-L
 2426952,2,2x 4.7uF 0402-L
 2368169,8,8x ESD_DIODE 0402-L
 2310308,1,1x 2.7pF 0402-L
-2215631,1,1x 220nH 0603-L
-1735379,1,1x ARM Switch None
 2483918 ,1,1x 330k 0603-L
+1735379,1,1x ARM Switch None
+2215631,1,1x 220nH 0603-L
 
 
   eBay
@@ -166,23 +173,29 @@ HAB-SL1252R,1,1x P1 SMA-142-0701-801
 
 Assembly BOM
 ------------
+688-1381             1   F Crimps x17    None            X13
 883-7942             1   MPU-9250        QFN-24-MPU9250  IC3
 AI-1027-TWT-3V-R     1   SOUNDER         AI-1027-TWT-3V-R LS1
-2524673              1   10nF            0402-L          C11
+2367724              1   Wire            None            X6
 2346896              1   2.2uF           0603-L          C32
 2455292              1   2.2uH           Neosid_Inductor_SM-NE29_SMD1008 L1
+1210349              1   Heat Shrink     None            X7
 2310320              2   8.2pF           0402-L          C26 C28
-1760988              2   18nH            0402-L          L4 L5
+2456965              1   STM32F411CxUx   QFN-48-EP-ST    IC4
 2497715              1   RF Frame        BMI-S-201-F     X15
 2497714              1   RF Cover        None            X16
-1226390              1   LED             0603-LED        D4
+1414575              1   10nF            0402-L          C11
 1830730              1   Housing x1      None            X10
 2072516              5   1k              0402-L          R21 R22 R23 R24 R25
 2072517              16  10k             0402-L          R1 R12 R13 R14 R15 R16 R17 R18 R19 R2 R20 R27 R28 R3 R35 R36
 1568023              1   MICROUSB        MICROUSB_MOLEX_47589-0001 J4
+2072515              10  100R            0402-L          R10 R26 R29 R33 R34 R4 R5 R6 R8 R9
 1830751              1   PYRO            S06B-PASK-2     J1
+1019325              1   SMA             SMA-142-0701-801 P2
 1515785              2   1.25R           0402-L          FB1 FB2
+1830754              1   M Crimps x6     None            X12
 2254940              1   ADP1607         LFCSP-2x2       IC1
+2496795              1   15pF            0402-L          C27
 2496792              1   100pF           0402-L          C35
 2112849              1   1uF             0603-L          C33
 1669639              3   56nH            0402-L          L2 L3 L6
@@ -190,18 +203,18 @@ AI-1027-TWT-3V-R     1   SOUNDER         AI-1027-TWT-3V-R LS1
 1894738              3   PFET            SOT-23          Q1 Q2 Q3
 1759381              1   1uF             0402-L          C16
 2331061              1   243k            0603-L          R11
-1226372              3   LED             0603-LED        D1 D2 D3
 2293260              1   AA Holder       None            X4
 1657936              2   10uF            0805            C2 C3
 1863178              1   Red LED         None            X2
+1328306              3   LED             0603-LED        D1 D2 D3
 1830747              1   PWR             S02B-PASK-2     J2
 1828860              18  100nF           0402-L          C1 C10 C12 C13 C14 C15 C17 C20 C29 C30 C31 C34 C37 C4 C5 C6 C8 C9
+1210365              1   Heat Shrink     None            X17
 1830726              1   Housing x4      None            X9
 1758939              2   8pF             0402-L          C21 C22
 1830728              1   Housing x1      None            X8
-1973025              1   15pF            0402-L          C27
 1830748              1   ARM             S03B-PASK-2     J3
-1608592              1   SMA             SMA-142-0701-801 P2
+1328309              1   LED             0603-LED        D4
 2362662              1   MS5611-01BA03   MS5611          IC6
 1885342              1   18pF            0402-L          C25
 2462635              1   Si4460          QFN-20-EP-SI    IC5
@@ -210,19 +223,22 @@ AI-1027-TWT-3V-R     1   SOUNDER         AI-1027-TWT-3V-R LS1
 2328003              1   S25FL127S       WND008          IC7
 2506973              1   30MHz           XTAL-20x16      Y2
 2496800              1   220pF           0402-L          C36
-1358015              10  100R            0402-L          R10 R26 R29 R33 R34 R4 R5 R6 R8 R9
-2456965              1   STM32F411CxUx   QFN-48-EP-ST    IC4
-1885321              1   5.1pF           0402-L          C23
+1210381              1   Heat Shrink     None            X19
 2506952              1   26MHz           XTAL-20x16      Y1
+ 1210405             1   Heat Shrink     None            X18
+1760988              2   18nH            0402-L          L4 L5
+1885321              1   5.1pF           0402-L          C23
 2426952              2   4.7uF           0402-L          C19 C7
 2368169              8   ESD_DIODE       0402-L          D10 D11 D12 D5 D6 D7 D8 D9
 2310308              1   2.7pF           0402-L          C24
-2215631              1   220nH           0603-L          L7
-1735379              1   ARM Switch      None            X5
 2483918              1   330k            0603-L          R7
+1735379              1   ARM Switch      None            X5
+2215631              1   220nH           0603-L          L7
 http://tinyurl.com/zxwhzow 1   AA Battery      None            X3
 http://tinyurl.com/jokv8kj 1   Crimp Tool      None            X14
 HAB-434STUB          1   434MHz ANT      None            X1
 HAB-MAX-M8Q          1   MAX-8Q          MAX-7Q          IC2
 HAB-SL1252R          1   SMA             SMA-142-0701-801 P1
+
+
 
