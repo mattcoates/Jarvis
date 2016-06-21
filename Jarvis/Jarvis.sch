@@ -682,8 +682,6 @@ Text Label 11700 4550 0    60   ~ 0
 PYRO2
 Text Label 11700 4750 0    60   ~ 0
 PYRO3
-Text Notes 8450 9220 0    47   ~ 0
-Camera will have its\nown power supply ect.
 $Comp
 L GND #PWR032
 U 1 1 56F43ED8
@@ -997,10 +995,10 @@ L C_Small C27
 U 1 1 56FCD62A
 P 7300 6750
 F 0 "C27" H 7310 6820 39  0000 L CNN
-F 1 "15pF" H 7310 6670 39  0000 L CNN
+F 1 "10pF" H 7310 6670 39  0000 L CNN
 F 2 "agg:0402-L" H 7300 6750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1446011.pdf" H 7300 6750 50  0001 C CNN
-F 4 "2496795" H 7300 6750 60  0001 C CNN "Farnell"
+F 4 "1758941" H 7300 6750 60  0001 C CNN "Farnell"
 	1    7300 6750
 	1    0    0    -1  
 $EndComp
@@ -1031,10 +1029,10 @@ L L_Small L4
 U 1 1 56FD28A5
 P 7100 6600
 F 0 "L4" H 7130 6640 39  0000 L CNN
-F 1 "18nH" H 7150 6550 39  0000 L CNN
+F 1 "6.8nH" H 7150 6550 39  0000 L CNN
 F 2 "agg:0402-L" H 7100 6600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1610600.pdf" H 7100 6600 50  0001 C CNN
-F 4 "1760988" H 7100 6600 60  0001 C CNN "Farnell"
+F 4 "1711736" H 7100 6600 60  0001 C CNN "Farnell"
 	1    7100 6600
 	0    -1   -1   0   
 $EndComp
@@ -1043,10 +1041,10 @@ L C_Small C26
 U 1 1 56FD3319
 P 6900 6750
 F 0 "C26" H 6910 6820 39  0000 L CNN
-F 1 "8.2pF" H 6910 6670 39  0000 L CNN
+F 1 "5.1pF" H 6910 6670 39  0000 L CNN
 F 2 "agg:0402-L" H 6900 6750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1825495.pdf" H 6900 6750 50  0001 C CNN
-F 4 "2310320" H 6900 6750 60  0001 C CNN "Farnell"
+F 4 "1885321" H 6900 6750 60  0001 C CNN "Farnell"
 	1    6900 6750
 	1    0    0    -1  
 $EndComp
@@ -1066,10 +1064,10 @@ L L_Small L7
 U 1 1 56FD75F7
 P 6050 6800
 F 0 "L7" H 6080 6840 39  0000 L CNN
-F 1 "220nH" H 6100 6750 39  0000 L CNN
+F 1 "120nH" H 6100 6750 39  0000 L CNN
 F 2 "agg:0603-L" H 6050 6800 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1649095.pdf" H 6050 6800 50  0001 C CNN
-F 4 "2215631" H 6050 6800 60  0001 C CNN "Farnell"
+F 4 "2424731" H 6050 6800 60  0001 C CNN "Farnell"
 	1    6050 6800
 	1    0    0    -1  
 $EndComp
@@ -1089,10 +1087,10 @@ L C_Small C25
 U 1 1 56FDACB4
 P 6300 6650
 F 0 "C25" H 6310 6720 39  0000 L CNN
-F 1 "18pF" H 6310 6570 39  0000 L CNN
+F 1 "33pF" H 6310 6570 39  0000 L CNN
 F 2 "agg:0402-L" H 6300 6650 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1731432.pdf" H 6300 6650 50  0001 C CNN
-F 4 "1885342" H 6300 6650 60  0001 C CNN "Farnell"
+F 4 "2434643" H 6300 6650 60  0001 C CNN "Farnell"
 	1    6300 6650
 	0    -1   1    0   
 $EndComp
@@ -1101,10 +1099,10 @@ L L_Small L2
 U 1 1 56FDD8C1
 P 6050 6400
 F 0 "L2" H 6080 6440 39  0000 L CNN
-F 1 "56nH" H 6100 6350 39  0000 L CNN
+F 1 "18nH" H 6100 6350 39  0000 L CNN
 F 2 "agg:0402-L" H 6050 6400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/321063.pdf" H 6050 6400 50  0001 C CNN
-F 4 "1669639" H 6050 6400 60  0001 C CNN "Farnell"
+F 4 "1865775" H 6050 6400 60  0001 C CNN "Farnell"
 	1    6050 6400
 	1    0    0    1   
 $EndComp
@@ -1113,10 +1111,10 @@ L C_Small C23
 U 1 1 56FDE869
 P 6050 6100
 F 0 "C23" H 6060 6170 39  0000 L CNN
-F 1 "5.1pF" H 6060 6020 39  0000 L CNN
+F 1 "3pF" H 6060 6020 39  0000 L CNN
 F 2 "agg:0402-L" H 6050 6100 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1731432.pdf" H 6050 6100 50  0001 C CNN
-F 4 "1885321" H 6050 6100 60  0001 C CNN "Farnell"
+F 4 "2210752" H 6050 6100 60  0001 C CNN "Farnell"
 	1    6050 6100
 	1    0    0    -1  
 $EndComp
@@ -1136,10 +1134,10 @@ L C_Small C24
 U 1 1 56FE25C7
 P 6300 6550
 F 0 "C24" H 6310 6620 39  0000 L CNN
-F 1 "2.7pF" H 6310 6470 39  0000 L CNN
+F 1 "1.2pF" H 6310 6470 39  0000 L CNN
 F 2 "agg:0402-L" H 6300 6550 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1825495.pdf" H 6300 6550 50  0001 C CNN
-F 4 "2310308" H 6300 6550 60  0001 C CNN "Farnell"
+F 4 "2218843" H 6300 6550 60  0001 C CNN "Farnell"
 	1    6300 6550
 	0    -1   -1   0   
 $EndComp
@@ -1331,30 +1329,6 @@ Text Notes 600  8300 0    69   ~ 14
 Barometer:
 Text Notes 12200 5750 0    69   ~ 14
 Datalogging:
-$Comp
-L PART X1
-U 1 1 5707E15F
-P 4400 8600
-F 0 "X1" H 4450 8700 50  0000 L CNN
-F 1 "434MHz ANT" H 4450 8600 45  0000 L CNN
-F 2 "" H 4400 8600 50  0001 C CNN
-F 3 "https://store.uputronics.com/index.php?route=product/product&path=63&product_id=86" H 4400 8600 50  0001 C CNN
-F 4 "HAB-434STUB" H 4400 8600 60  0001 C CNN "HabSupplies"
-	1    4400 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X5
-U 1 1 570828BF
-P 6600 8600
-F 0 "X5" H 6650 8700 50  0000 L CNN
-F 1 "ARM Switch" H 6650 8600 50  0000 L CNN
-F 2 "" H 6600 8600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1520794.pdf" H 6600 8600 50  0001 C CNN
-F 4 "1735379" H 6600 8600 60  0001 C CNN "Farnell"
-	1    6600 8600
-	1    0    0    -1  
-$EndComp
 $Comp
 L R_Small R32
 U 1 1 56F734C1
@@ -2107,18 +2081,6 @@ F 4 "2072516" H 15000 4500 60  0001 C CNN "Farnell"
 	1    15000 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L PART X2
-U 1 1 5700FC99
-P 4950 8600
-F 0 "X2" H 5000 8700 50  0000 L CNN
-F 1 "Red LED" H 5000 8600 50  0000 L CNN
-F 2 "" H 4950 8600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1694509.pdf" H 4950 8600 50  0001 C CNN
-F 4 "1863178" H 4950 8600 60  0001 C CNN "Farnell"
-	1    4950 8600
-	1    0    0    -1  
-$EndComp
 Text Notes 15500 4000 0    60   Italic 0
 COMPLETE
 Text Notes 11550 4000 0    60   Italic 0
@@ -2433,8 +2395,6 @@ F 4 "1830751" H 10950 4350 60  0001 C CNN "Farnell"
 $EndComp
 Text Notes 8450 9450 0    47   ~ 0
 Red 3mm LED wired in\nparallel with keyswitch\nto provide pyro status.
-Text Notes 4450 9550 0    47   ~ 0
-X1 434MHz Stubby Radio Antenna\nX2 Red Indicator LED for Pyro Arming\nX3 Energizer L91 Lithium Ultimate AA\nX4 AA Battery Holder\nX5 Key Switch for Arming Pyrotechnics\nX6 Wire\nX7 Black Heatshrink
 $Comp
 L CONN_01x03 J3
 U 1 1 56FECBFE
@@ -2458,30 +2418,6 @@ F 3 "http://www.farnell.com/datasheets/1716705.pdf" H 9850 4450 50  0001 C CNN
 F 4 "2072516" H 9850 4450 60  0001 C CNN "Farnell"
 	1    9850 4450
 	0    -1   -1   0   
-$EndComp
-$Comp
-L PART X4
-U 1 1 56FFB6DB
-P 6050 8600
-F 0 "X4" H 6100 8700 50  0000 L CNN
-F 1 "AA Holder" H 6100 8600 50  0000 L CNN
-F 2 "" H 6050 8600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1703957.pdf" H 6050 8600 50  0001 C CNN
-F 4 "2293260 " H 6050 8600 60  0001 C CNN "Farnell"
-	1    6050 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X3
-U 1 1 56FFCA9C
-P 5500 8600
-F 0 "X3" H 5550 8700 50  0000 L CNN
-F 1 "AA Battery" H 5550 8600 50  0000 L CNN
-F 2 "" H 5500 8600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/9583.pdf" H 5500 8600 50  0001 C CNN
-F 4 "http://tinyurl.com/zxwhzow" H 5500 8600 60  0001 C CNN "eBay"
-	1    5500 8600
-	1    0    0    -1  
 $EndComp
 $Comp
 L SMA P1
@@ -2517,12 +2453,8 @@ F 3 "" H 1100 1750 50  0001 C CNN
 	1    1100 1750
 	0    -1   -1   0   
 $EndComp
-Text Notes 8450 9050 0    55   ~ 11
-Notes:
 Text Notes 8450 9700 0    47   ~ 0
 External HBT & Status\nindication will be done\nthrough sounder & radio
-Text Notes 4451 9122 0    47   ~ 9
-X1
 Text Notes 4448 9197 0    47   ~ 9
 X2
 Text Notes 4448 9268 0    47   ~ 9
@@ -2536,10 +2468,10 @@ L C_Small C28
 U 1 1 5706F362
 P 7700 6750
 F 0 "C28" H 7710 6820 39  0000 L CNN
-F 1 "8.2pF" H 7710 6670 39  0000 L CNN
+F 1 "5.1pF" H 7710 6670 39  0000 L CNN
 F 2 "agg:0402-L" H 7700 6750 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1825495.pdf" H 7700 6750 50  0001 C CNN
-F 4 "2310320" H 7700 6750 60  0001 C CNN "Farnell"
+F 4 "1885321" H 7700 6750 60  0001 C CNN "Farnell"
 	1    7700 6750
 	1    0    0    -1  
 $EndComp
@@ -2606,10 +2538,10 @@ L L_Small L3
 U 1 1 570CA84C
 P 6500 6400
 F 0 "L3" H 6530 6440 39  0000 L CNN
-F 1 "56nH" H 6550 6350 39  0000 L CNN
+F 1 "22nH" H 6550 6350 39  0000 L CNN
 F 2 "agg:0402-L" H 6500 6400 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/321063.pdf" H 6500 6400 50  0001 C CNN
-F 4 "1669639" H 6500 6400 60  0001 C CNN "Farnell"
+F 4 "1669580" H 6500 6400 60  0001 C CNN "Farnell"
 	1    6500 6400
 	1    0    0    -1  
 $EndComp
@@ -2618,10 +2550,10 @@ L L_Small L6
 U 1 1 570CAAA9
 P 6550 6650
 F 0 "L6" H 6580 6690 39  0000 L CNN
-F 1 "56nH" H 6600 6600 39  0000 L CNN
+F 1 "8.2nH" H 6600 6600 39  0000 L CNN
 F 2 "agg:0402-L" H 6550 6650 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/321063.pdf" H 6550 6650 50  0001 C CNN
-F 4 "1669639" H 6550 6650 60  0001 C CNN "Farnell"
+F 4 "1865771" H 6550 6650 60  0001 C CNN "Farnell"
 	1    6550 6650
 	0    -1   1    0   
 $EndComp
@@ -2630,129 +2562,17 @@ L L_Small L5
 U 1 1 570CB3E1
 P 7500 6600
 F 0 "L5" H 7530 6640 39  0000 L CNN
-F 1 "18nH" H 7550 6550 39  0000 L CNN
+F 1 "6.8nH" H 7550 6550 39  0000 L CNN
 F 2 "agg:0402-L" H 7500 6600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1610600.pdf" H 7500 6600 50  0001 C CNN
-F 4 "1760988" H 7500 6600 60  0001 C CNN "Farnell"
+F 4 "1711736" H 7500 6600 60  0001 C CNN "Farnell"
 	1    7500 6600
 	0    -1   -1   0   
 $EndComp
 Text Notes 8000 5750 0    60   Italic 0
 COMPLETE
-$Comp
-L PART X8
-U 1 1 56FCB0B2
-P 4400 8850
-F 0 "X8" H 4450 8950 50  0000 L CNN
-F 1 "Housing x1" H 4450 8850 50  0000 L CNN
-F 2 "" H 4400 8850 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/621888.pdf" H 4400 8850 50  0001 C CNN
-F 4 "1830728" H 4400 8850 60  0001 C CNN "Farnell"
-	1    4400 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X9
-U 1 1 56FCB257
-P 4950 8850
-F 0 "X9" H 5000 8950 50  0000 L CNN
-F 1 "Housing x4" H 5000 8850 50  0000 L CNN
-F 2 "" H 4950 8850 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/621888.pdf" H 4950 8850 50  0001 C CNN
-F 4 "1830726" H 4950 8850 60  0001 C CNN "Farnell"
-	1    4950 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X10
-U 1 1 56FCB3E7
-P 5500 8850
-F 0 "X10" H 5550 8950 50  0000 L CNN
-F 1 "Housing x1" H 5550 8850 50  0000 L CNN
-F 2 "" H 5500 8850 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/621888.pdf" H 5500 8850 50  0001 C CNN
-F 4 "1830730" H 5500 8850 60  0001 C CNN "Farnell"
-	1    5500 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X13
-U 1 1 56FCE6CE
-P 7150 8850
-F 0 "X13" H 7200 8950 50  0000 L CNN
-F 1 "F Crimps x17" H 7200 8850 43  0000 L CNN
-F 2 "" H 7150 8850 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/621888.pdf" H 7150 8850 50  0001 C CNN
-F 4 "688-1381" H 7150 8850 60  0001 C CNN "RS"
-	1    7150 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X6
-U 1 1 56FE03D1
-P 7150 8600
-F 0 "X6" H 7200 8700 50  0000 L CNN
-F 1 "Wire" H 7200 8600 50  0000 L CNN
-F 2 "" H 7150 8600 50  0001 C CNN
-F 3 "" H 7150 8600 50  0001 C CNN
-F 4 "2367724" H 7150 8600 60  0001 C CNN "Farnell"
-	1    7150 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X14
-U 1 1 56FE050A
-P 7700 8850
-F 0 "X14" H 7750 8950 50  0000 L CNN
-F 1 "Crimp Tool" H 7750 8850 50  0000 L CNN
-F 2 "" H 7700 8850 50  0001 C CNN
-F 3 "" H 7700 8850 50  0001 C CNN
-F 4 "http://tinyurl.com/jokv8kj" H 7700 8850 60  0001 C CNN "eBay"
-	1    7700 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X12
-U 1 1 56FE0832
-P 6600 8850
-F 0 "X12" H 6650 8950 50  0000 L CNN
-F 1 "M Crimps x6" H 6650 8850 43  0000 L CNN
-F 2 "" H 6600 8850 50  0001 C CNN
-F 3 "" H 6600 8850 50  0001 C CNN
-F 4 "1830754" H 6600 8850 60  0001 C CNN "Farnell"
-	1    6600 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X7
-U 1 1 56FE2F68
-P 7700 8600
-F 0 "X7" H 7750 8700 50  0000 L CNN
-F 1 "Heat Shrink" H 7750 8600 50  0000 L CNN
-F 2 "" H 7700 8600 50  0001 C CNN
-F 3 "" H 7700 8600 50  0001 C CNN
-F 4 "1210349" H 7700 8600 60  0001 C CNN "Farnell"
-	1    7700 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X11
-U 1 1 56FF27DB
-P 6050 8850
-F 0 "X11" H 6100 8950 50  0000 L CNN
-F 1 "Housing x3" H 6100 8850 50  0000 L CNN
-F 2 "" H 6050 8850 50  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf" H 6050 8850 50  0001 C CNN
-F 4 "1830756 " H 6050 8850 60  0001 C CNN "Farnell"
-	1    6050 8850
-	1    0    0    -1  
-$EndComp
-Text Notes 6050 9550 0    47   ~ 0
-X8 3 Pin Housing\nX9 2 Pin Housing\nX10 6 Pin Housing\nX11 2 Pin Recepticle\nX12 Male Crimps\nX13 Femal Crimps\nX14 Crimp Tool
 Text Notes 4451 9479 0    47   ~ 9
 X6
-Text Notes 6050 9123 0    47   ~ 9
-X8
 Text Notes 4450 9551 0    47   ~ 9
 X7
 Text Notes 6051 9195 0    47   ~ 9
@@ -3618,30 +3438,6 @@ F 2 "agg:TESTPAD" H 5850 1000 50  0001 L CNN
 F 3 "" H 5850 1150 50  0001 C CNN
 	1    5850 1150
 	-1   0    0    1   
-$EndComp
-$Comp
-L PART X15
-U 1 1 5709D0FD
-P 6400 5900
-F 0 "X15" H 6450 6000 50  0000 L CNN
-F 1 "RF Frame" H 6450 5900 45  0000 L CNN
-F 2 "Library:BMI-S-201-F" H 6400 5900 50  0001 C CNN
-F 3 "http://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/BMI-S-201-F_Dwg.pdf" H 6400 5900 50  0001 C CNN
-F 4 "2497715" H 6400 5900 60  0001 C CNN "Farnell"
-	1    6400 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L PART X16
-U 1 1 5709E7BE
-P 7000 5900
-F 0 "X16" H 7050 6000 50  0000 L CNN
-F 1 "RF Cover" H 7050 5900 45  0000 L CNN
-F 2 "" H 7000 5900 50  0001 C CNN
-F 3 "http://dkc3.digikey.com/PDF/UK2011-EN/P0572.pdf" H 7000 5900 50  0001 C CNN
-F 4 "2497714" H 7000 5900 60  0001 C CNN "Farnell"
-	1    7000 5900
-	1    0    0    -1  
 $EndComp
 $Comp
 L 3v3 #PWR0114
@@ -4649,16 +4445,50 @@ F 4 "1828860" H 800 4600 60  0001 C CNN "Farnell"
 	1    800  4600
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	8550 8100 8550 500 
+Wire Notes Line
+	9450 9800 9450 8100
+Text Notes 8900 8300 0    60   Italic 0
+COMPLETE
+Text Notes 6900 7250 0    60   ~ 0
+Configured for 868MHz
+Text Notes 8450 9050 0    55   ~ 11
+Notes:
+Text Notes 7000 9250 0    47   ~ 0
+X17 Red Heatshrink\nX18 Blue Heatshrink\nX19 Yellow Heatshrink
+Text Notes 6050 9123 0    47   ~ 9
+X8
+Text Notes 6050 9550 0    47   ~ 0
+X8 3 Pin Housing\nX9 2 Pin Housing\nX10 6 Pin Housing\nX11 2 Pin Recepticle\nX12 Male Crimps\nX13 Femal Crimps\nX14 Crimp Tool
+Text Notes 4451 9122 0    47   ~ 9
+X1
+Text Notes 4450 9550 0    47   ~ 0
+X1 434MHz Stubby Radio Antenna\nX2 Red Indicator LED for Pyro Arming\nX3 Energizer L91 Lithium Ultimate AA\nX4 AA Battery Holder\nX5 Key Switch for Arming Pyrotechnics\nX6 Wire\nX7 Black Heatshrink
+Text Notes 8450 9220 0    47   ~ 0
+Camera will have its\nown power supply ect.
 $Comp
-L PART X17
-U 1 1 571ECFBC
-P 8250 8600
-F 0 "X17" H 8300 8700 50  0000 L CNN
-F 1 "Heat Shrink" H 8300 8600 50  0000 L CNN
-F 2 "" H 8250 8600 50  0001 C CNN
-F 3 "" H 8250 8600 50  0001 C CNN
-F 4 "1210365" H 8250 8600 60  0001 C CNN "Farnell"
-	1    8250 8600
+L PART X16
+U 1 1 5709E7BE
+P 7000 5900
+F 0 "X16" H 7050 6000 50  0000 L CNN
+F 1 "RF Cover" H 7050 5900 45  0000 L CNN
+F 2 "" H 7000 5900 50  0001 C CNN
+F 3 "http://dkc3.digikey.com/PDF/UK2011-EN/P0572.pdf" H 7000 5900 50  0001 C CNN
+F 4 "2497714" H 7000 5900 60  0001 C CNN "Farnell"
+	1    7000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X15
+U 1 1 5709D0FD
+P 6400 5900
+F 0 "X15" H 6450 6000 50  0000 L CNN
+F 1 "RF Frame" H 6450 5900 45  0000 L CNN
+F 2 "Library:BMI-S-201-F" H 6400 5900 50  0001 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/BMI-S-201-F_Dwg.pdf" H 6400 5900 50  0001 C CNN
+F 4 "2497715" H 6400 5900 60  0001 C CNN "Farnell"
+	1    6400 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4674,6 +4504,18 @@ F 4 " 1210405" H 8800 8600 60  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
+L PART X17
+U 1 1 571ECFBC
+P 8250 8600
+F 0 "X17" H 8300 8700 50  0000 L CNN
+F 1 "Heat Shrink" H 8300 8600 50  0000 L CNN
+F 2 "" H 8250 8600 50  0001 C CNN
+F 3 "" H 8250 8600 50  0001 C CNN
+F 4 "1210365" H 8250 8600 60  0001 C CNN "Farnell"
+	1    8250 8600
+	1    0    0    -1  
+$EndComp
+$Comp
 L PART X19
 U 1 1 571ED451
 P 8250 8850
@@ -4685,12 +4527,172 @@ F 4 "1210381" H 8250 8850 60  0001 C CNN "Farnell"
 	1    8250 8850
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	8550 8100 8550 500 
-Wire Notes Line
-	9450 9800 9450 8100
-Text Notes 8900 8300 0    60   Italic 0
-COMPLETE
-Text Notes 7000 9250 0    47   ~ 0
-X17 Red Heatshrink\nX18 Blue Heatshrink\nX19 Yellow Heatshrink
+$Comp
+L PART X14
+U 1 1 56FE050A
+P 7700 8850
+F 0 "X14" H 7750 8950 50  0000 L CNN
+F 1 "Crimp Tool" H 7750 8850 50  0000 L CNN
+F 2 "" H 7700 8850 50  0001 C CNN
+F 3 "" H 7700 8850 50  0001 C CNN
+F 4 "http://tinyurl.com/jokv8kj" H 7700 8850 60  0001 C CNN "eBay"
+	1    7700 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X7
+U 1 1 56FE2F68
+P 7700 8600
+F 0 "X7" H 7750 8700 50  0000 L CNN
+F 1 "Heat Shrink" H 7750 8600 50  0000 L CNN
+F 2 "" H 7700 8600 50  0001 C CNN
+F 3 "" H 7700 8600 50  0001 C CNN
+F 4 "1210349" H 7700 8600 60  0001 C CNN "Farnell"
+	1    7700 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X6
+U 1 1 56FE03D1
+P 7150 8600
+F 0 "X6" H 7200 8700 50  0000 L CNN
+F 1 "Wire" H 7200 8600 50  0000 L CNN
+F 2 "" H 7150 8600 50  0001 C CNN
+F 3 "" H 7150 8600 50  0001 C CNN
+F 4 "2367724" H 7150 8600 60  0001 C CNN "Farnell"
+	1    7150 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X13
+U 1 1 56FCE6CE
+P 7150 8850
+F 0 "X13" H 7200 8950 50  0000 L CNN
+F 1 "F Crimps x17" H 7200 8850 43  0000 L CNN
+F 2 "" H 7150 8850 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/621888.pdf" H 7150 8850 50  0001 C CNN
+F 4 "688-1381" H 7150 8850 60  0001 C CNN "RS"
+	1    7150 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X12
+U 1 1 56FE0832
+P 6600 8850
+F 0 "X12" H 6650 8950 50  0000 L CNN
+F 1 "M Crimps x6" H 6650 8850 43  0000 L CNN
+F 2 "" H 6600 8850 50  0001 C CNN
+F 3 "" H 6600 8850 50  0001 C CNN
+F 4 "1830754" H 6600 8850 60  0001 C CNN "Farnell"
+	1    6600 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X5
+U 1 1 570828BF
+P 6600 8600
+F 0 "X5" H 6650 8700 50  0000 L CNN
+F 1 "ARM Switch" H 6650 8600 50  0000 L CNN
+F 2 "" H 6600 8600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1520794.pdf" H 6600 8600 50  0001 C CNN
+F 4 "1735379" H 6600 8600 60  0001 C CNN "Farnell"
+	1    6600 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X4
+U 1 1 56FFB6DB
+P 6050 8600
+F 0 "X4" H 6100 8700 50  0000 L CNN
+F 1 "AA Holder" H 6100 8600 50  0000 L CNN
+F 2 "" H 6050 8600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1703957.pdf" H 6050 8600 50  0001 C CNN
+F 4 "2293260 " H 6050 8600 60  0001 C CNN "Farnell"
+	1    6050 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X11
+U 1 1 56FF27DB
+P 6050 8850
+F 0 "X11" H 6100 8950 50  0000 L CNN
+F 1 "Housing x3" H 6100 8850 50  0000 L CNN
+F 2 "" H 6050 8850 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf" H 6050 8850 50  0001 C CNN
+F 4 "1830756 " H 6050 8850 60  0001 C CNN "Farnell"
+	1    6050 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X10
+U 1 1 56FCB3E7
+P 5500 8850
+F 0 "X10" H 5550 8950 50  0000 L CNN
+F 1 "Housing x1" H 5550 8850 50  0000 L CNN
+F 2 "" H 5500 8850 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/621888.pdf" H 5500 8850 50  0001 C CNN
+F 4 "1830730" H 5500 8850 60  0001 C CNN "Farnell"
+	1    5500 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X3
+U 1 1 56FFCA9C
+P 5500 8600
+F 0 "X3" H 5550 8700 50  0000 L CNN
+F 1 "AA Battery" H 5550 8600 50  0000 L CNN
+F 2 "" H 5500 8600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/9583.pdf" H 5500 8600 50  0001 C CNN
+F 4 "http://tinyurl.com/zxwhzow" H 5500 8600 60  0001 C CNN "eBay"
+	1    5500 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X9
+U 1 1 56FCB257
+P 4950 8850
+F 0 "X9" H 5000 8950 50  0000 L CNN
+F 1 "Housing x4" H 5000 8850 50  0000 L CNN
+F 2 "" H 4950 8850 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/621888.pdf" H 4950 8850 50  0001 C CNN
+F 4 "1830726" H 4950 8850 60  0001 C CNN "Farnell"
+	1    4950 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X2
+U 1 1 5700FC99
+P 4950 8600
+F 0 "X2" H 5000 8700 50  0000 L CNN
+F 1 "Red LED" H 5000 8600 50  0000 L CNN
+F 2 "" H 4950 8600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1694509.pdf" H 4950 8600 50  0001 C CNN
+F 4 "1863178" H 4950 8600 60  0001 C CNN "Farnell"
+	1    4950 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X8
+U 1 1 56FCB0B2
+P 4400 8850
+F 0 "X8" H 4450 8950 50  0000 L CNN
+F 1 "Housing x1" H 4450 8850 50  0000 L CNN
+F 2 "" H 4400 8850 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/621888.pdf" H 4400 8850 50  0001 C CNN
+F 4 "1830728" H 4400 8850 60  0001 C CNN "Farnell"
+	1    4400 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L PART X1
+U 1 1 5707E15F
+P 4400 8600
+F 0 "X1" H 4450 8700 50  0000 L CNN
+F 1 "434MHz ANT" H 4450 8600 45  0000 L CNN
+F 2 "" H 4400 8600 50  0001 C CNN
+F 3 "https://store.uputronics.com/index.php?route=product/product&path=63&product_id=86" H 4400 8600 50  0001 C CNN
+F 4 "HAB-434STUB" H 4400 8600 60  0001 C CNN "HabSupplies"
+	1    4400 8600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
