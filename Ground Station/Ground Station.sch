@@ -1872,4 +1872,6 @@ F 4 "2497715" H 7100 850 60  0001 C CNN "Farnell"
 	1    7100 850 
 	1    0    0    -1  
 $EndComp
+Text Notes 7250 2300 0    60   ~ 0
+Configured for 868MHz
 $EndSCHEMATC

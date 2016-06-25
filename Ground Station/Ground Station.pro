@@ -1,4 +1,4 @@
-update=Sat 25 Jun 2016 01:03:11 BST
+update=Sat 25 Jun 2016 02:44:36 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,6 +59,8 @@ LibName29=valves
 LibName30=/home/matt/Documents/CUSF/agg-kicad/agg-kicad
 LibName31=/home/matt/Documents/CUSF/Jarvis/Library/usb-plug
 LibName32=/home/matt/Documents/CUSF/Jarvis/Library/sma
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -69,5 +71,3 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1

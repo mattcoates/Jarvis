@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/matt/Documents/CUSF/Jarvis/Jarvis/Jarvis.sch</source>
-    <date>Fri 24 Jun 2016 19:40:46 BST</date>
+    <date>Sat 25 Jun 2016 02:52:59 BST</date>
     <tool>Eeschema 4.0.2+e4-6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1623,6 +1623,190 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5718C111</tstamp>
     </comp>
+    <comp ref="X16">
+      <value>RF Cover</value>
+      <datasheet>http://dkc3.digikey.com/PDF/UK2011-EN/P0572.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2497714</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5709E7BE</tstamp>
+    </comp>
+    <comp ref="X15">
+      <value>RF Frame</value>
+      <footprint>Library:BMI-S-201-F</footprint>
+      <datasheet>http://media.digikey.com/pdf/Data%20Sheets/Laird%20Technologies/BMI-S-201-F_Dwg.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2497715</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5709D0FD</tstamp>
+    </comp>
+    <comp ref="X18">
+      <value>Heat Shrink</value>
+      <fields>
+        <field name="Farnell"> 1210405</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571ED208</tstamp>
+    </comp>
+    <comp ref="X17">
+      <value>Heat Shrink</value>
+      <fields>
+        <field name="Farnell">1210365</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571ECFBC</tstamp>
+    </comp>
+    <comp ref="X19">
+      <value>Heat Shrink</value>
+      <fields>
+        <field name="Farnell">1210381</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>571ED451</tstamp>
+    </comp>
+    <comp ref="X14">
+      <value>Crimp Tool</value>
+      <fields>
+        <field name="eBay">http://tinyurl.com/jokv8kj</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FE050A</tstamp>
+    </comp>
+    <comp ref="X7">
+      <value>Heat Shrink</value>
+      <fields>
+        <field name="Farnell">1210349</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FE2F68</tstamp>
+    </comp>
+    <comp ref="X6">
+      <value>Wire</value>
+      <fields>
+        <field name="Farnell">2367724</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FE03D1</tstamp>
+    </comp>
+    <comp ref="X13">
+      <value>F Crimps x17</value>
+      <datasheet>http://www.farnell.com/datasheets/621888.pdf</datasheet>
+      <fields>
+        <field name="RS">688-1381</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FCE6CE</tstamp>
+    </comp>
+    <comp ref="X12">
+      <value>M Crimps x6</value>
+      <fields>
+        <field name="Farnell">1830754</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FE0832</tstamp>
+    </comp>
+    <comp ref="X5">
+      <value>ARM Switch</value>
+      <datasheet>http://www.farnell.com/datasheets/1520794.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1735379</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>570828BF</tstamp>
+    </comp>
+    <comp ref="X4">
+      <value>AA Holder</value>
+      <datasheet>http://www.farnell.com/datasheets/1703957.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2293260 </field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FFB6DB</tstamp>
+    </comp>
+    <comp ref="X11">
+      <value>Housing x3</value>
+      <datasheet>http://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1830756 </field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FF27DB</tstamp>
+    </comp>
+    <comp ref="X10">
+      <value>Housing x1</value>
+      <datasheet>http://www.farnell.com/datasheets/621888.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1830730</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FCB3E7</tstamp>
+    </comp>
+    <comp ref="X3">
+      <value>AA Battery</value>
+      <datasheet>http://www.farnell.com/datasheets/9583.pdf</datasheet>
+      <fields>
+        <field name="eBay">http://tinyurl.com/zxwhzow</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FFCA9C</tstamp>
+    </comp>
+    <comp ref="X9">
+      <value>Housing x4</value>
+      <datasheet>http://www.farnell.com/datasheets/621888.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1830726</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FCB257</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>Red LED</value>
+      <datasheet>http://www.farnell.com/datasheets/1694509.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1863178</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5700FC99</tstamp>
+    </comp>
+    <comp ref="X8">
+      <value>Housing x1</value>
+      <datasheet>http://www.farnell.com/datasheets/621888.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1830728</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FCB0B2</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>434MHz ANT</value>
+      <datasheet>https://store.uputronics.com/index.php?route=product/product&amp;path=63&amp;product_id=86</datasheet>
+      <fields>
+        <field name="HabSupplies">HAB-434STUB</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5707E15F</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="agg-kicad" part="ADP1607">
@@ -1851,6 +2035,12 @@
         <pin num="3" name="D" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="agg-kicad" part="PART">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PART</field>
+      </fields>
+    </libpart>
     <libpart lib="agg-kicad" part="PFET">
       <fields>
         <field name="Reference">Q</field>
@@ -2054,11 +2244,11 @@
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="sma">
-      <uri>/home/matt/Documents/CUSF/Jarvis/Library/sma.lib</uri>
-    </library>
     <library logical="agg-kicad">
       <uri>/home/matt/Documents/CUSF/agg-kicad/agg-kicad.lib</uri>
+    </library>
+    <library logical="sma">
+      <uri>/home/matt/Documents/CUSF/Jarvis/Library/sma.lib</uri>
     </library>
   </libraries>
   <nets>
