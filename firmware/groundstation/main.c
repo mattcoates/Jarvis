@@ -52,7 +52,6 @@ int main(void) {
    * Normal main() thread activity, in this demo it does nothing.
    */
   while (true) {
-    chThdSleepMilliseconds(500);
   }
 }
 

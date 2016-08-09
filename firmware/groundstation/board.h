@@ -267,8 +267,8 @@
                                         PIN_PUPD_PULLUP(GPIOA_SWDIO) | \
                                         PIN_PUPD_PULLDOWN(GPIOA_SWCLK) | \
                                         PIN_PUPD_PULLUP(GPIOA_PIN15))
-#define VAL_GPIOA_ODR                  (PIN_OD_HIGH(GPIOA_STAT_HBT) | \
-                                        PIN_OD_HIGH(GPIOA_STAT_WRN) | \
+#define VAL_GPIOA_ODR                  (PIN_OD_LOW(GPIOA_STAT_HBT) | \
+                                        PIN_OD_LOW(GPIOA_STAT_WRN) | \
                                         PIN_OD_HIGH(GPIOA_SPI1_NSS_FLASH) | \
                                         PIN_OD_HIGH(GPIOA_RADIO_NIRQ) | \
                                         PIN_OD_HIGH(GPIOA_SPI1_NSS_RADIO) | \
