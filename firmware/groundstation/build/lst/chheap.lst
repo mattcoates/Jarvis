@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccDdrJjs.s 			page 1
+ARM GAS  /tmp/ccBa3drt.s 			page 1
 
 
    1              		.syntax unified
@@ -18,14 +18,14 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   15              		.file	"chheap.c"
   16              		.text
   17              	.Ltext0:
-  18              		.section	.gnu.lto_.profile.da0952d596a8c6eb,"",%progbits
+  18              		.section	.gnu.lto_.profile.20f6aa3dccec2e09,"",%progbits
   19 0000 789C6361 		.ascii	"x\234ca`d`e`\000\2227\031\313\001\003\202\001]"
   19      60646065 
   19      60009237 
   19      19CB0103 
   19      82015D
   20              		.text
-  21              		.section	.gnu.lto_.icf.da0952d596a8c6eb,"",%progbits
+  21              		.section	.gnu.lto_.icf.20f6aa3dccec2e09,"",%progbits
   22 0000 789C6361 		.ascii	"x\234ca`d\000\0015\006\004`c\370\376\363\343\022\026"
   22      60640001 
   22      35060460 
@@ -43,7 +43,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   24      0077
   25 0036 9C125F   		.ascii	"\234\022_"
   26              		.text
-  27              		.section	.gnu.lto_.jmpfuncs.da0952d596a8c6eb,"",%progbits
+  27              		.section	.gnu.lto_.jmpfuncs.20f6aa3dccec2e09,"",%progbits
   28 0000 789C6D8E 		.ascii	"x\234m\216;\016\302@\014D=\366\206\320\221\003\344\016"
   28      3B0EC240 
   28      0C443DF6 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   30      491B8237 
   30      4221488C 
   30      34853DCF 
-ARM GAS  /tmp/ccDdrJjs.s 			page 2
+ARM GAS  /tmp/ccBa3drt.s 			page 2
 
 
   30      D6380245 
@@ -90,7 +90,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   36 0096 7E297A03 		.ascii	"~)z\003\222\270Is"
   36      92B84973 
   37              		.text
-  38              		.section	.gnu.lto_.inline.da0952d596a8c6eb,"",%progbits
+  38              		.section	.gnu.lto_.inline.20f6aa3dccec2e09,"",%progbits
   39 0000 789C6361 		.ascii	"x\234ca`d\000\001w\010\005\006\254\014\014\034\002\214"
   39      60640001 
   39      77080506 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   44 005c E58C3240 		.ascii	"\345\2142@\275\331P\032h\006#\210`\26182\231\023b\031"
   44      BDD9501A 
   44      68062388 
-ARM GAS  /tmp/ccDdrJjs.s 			page 3
+ARM GAS  /tmp/ccBa3drt.s 			page 3
 
 
   44      60B13832 
@@ -149,7 +149,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   50 00c6 91010067 		.ascii	"\221\001\000g\3421\332"
   50      E231DA
   51              		.text
-  52              		.section	.gnu.lto_.pureconst.da0952d596a8c6eb,"",%progbits
+  52              		.section	.gnu.lto_.pureconst.20f6aa3dccec2e09,"",%progbits
   53 0000 789C6361 		.ascii	"x\234ca`d\340f```e\220`\226b\221b\225b\223\002\000\004"
   53      6064E066 
   53      60606065 
@@ -157,7 +157,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   53      91629562 
   54 0018 1400A8   		.ascii	"\024\000\250"
   55              		.text
-  56              		.section	.gnu.lto__heap_init.da0952d596a8c6eb,"",%progbits
+  56              		.section	.gnu.lto__heap_init.20f6aa3dccec2e09,"",%progbits
   57 0000 789C9592 		.ascii	"x\234\225\222\315K\224A\034\307\347;\263>\317\256et"
   57      CD4B9441 
   57      1CC7E73B 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   60      D743A70E 
   60      9B522622 
   60      B6815D04 
-ARM GAS  /tmp/ccDdrJjs.s 			page 4
+ARM GAS  /tmp/ccBa3drt.s 			page 4
 
 
   61 004a F7E9F79B 		.ascii	"\367\351\367\233}\012DVt\340a\036~\337\231\337\367\363"
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   72      A8FD4C65 
   72      FB2ACC
   73 0121 3A7B94B7 		.ascii	":{\224\267\276\271\363y\344\237z\321*\017Y\350\222\224"
-ARM GAS  /tmp/ccDdrJjs.s 			page 5
+ARM GAS  /tmp/ccBa3drt.s 			page 5
 
 
   73      BEB9F379 
@@ -291,14 +291,14 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   83      29F1175E 
   83      E32B0A
   84              		.text
-  85              		.section	.gnu.lto_chHeapObjectInit.da0952d596a8c6eb,"",%progbits
+  85              		.section	.gnu.lto_chHeapObjectInit.20f6aa3dccec2e09,"",%progbits
   86 0000 789C9593 		.ascii	"x\234\225\223\337K\024Q\024\307\357w\356\316\316\256"
   86      DF4B1451 
   86      14C7EF77 
   86      EECECEAE 
   87 0010 EBAA6F3D 		.ascii	"\353\252o=$a\017\"\0219\032\364\027\364\326KT\364Po"
   87      24610F22 
-ARM GAS  /tmp/ccDdrJjs.s 			page 6
+ARM GAS  /tmp/ccBa3drt.s 			page 6
 
 
   87      11391AF4 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
   98      E3CA315B 
   98      E9C2B595 
   98      4A974093 
-ARM GAS  /tmp/ccDdrJjs.s 			page 7
+ARM GAS  /tmp/ccBa3drt.s 			page 7
 
 
   98      ADBC
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  110 01b9 E37DE192 		.ascii	"\343}\341\222x\243\177\254\354\303m\2732\034\203^T\032"
  110      78A37FAC 
  110      ECC36DBB 
-ARM GAS  /tmp/ccDdrJjs.s 			page 8
+ARM GAS  /tmp/ccBa3drt.s 			page 8
 
 
  110      321C835E 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  122 0292 7730089D 		.ascii	"w0\010\235\272<E\251\370\000\027W\347\254\216\216\317"
  122      BA3C45A9 
  122      F8001757 
-ARM GAS  /tmp/ccDdrJjs.s 			page 9
+ARM GAS  /tmp/ccBa3drt.s 			page 9
 
 
  122      E7AC8E8E 
@@ -506,7 +506,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  127 02ef 94FCC25F 		.ascii	"\224\374\302_\371z\276#"
  127      F97ABE23 
  128              		.text
- 129              		.section	.gnu.lto_chHeapAlloc.da0952d596a8c6eb,"",%progbits
+ 129              		.section	.gnu.lto_chHeapAlloc.20f6aa3dccec2e09,"",%progbits
  130 0000 789C9556 		.ascii	"x\234\225V\373oTE\024\2363s\367q\367\321\335\246\204"
  130      FB6F5445 
  130      149E3373 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  135      A3C7E965 
  135      6C2E
  136 0072 FE37E30F 		.ascii	"\3767\343\017\262\031\360\265m\214\255pr..\271\231\341"
-ARM GAS  /tmp/ccDdrJjs.s 			page 10
+ARM GAS  /tmp/ccBa3drt.s 			page 10
 
 
  136      B219F0B5 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  147      0D4568FD 
  147      ED8ACE56 
  147      AF2892
-ARM GAS  /tmp/ccDdrJjs.s 			page 11
+ARM GAS  /tmp/ccBa3drt.s 			page 11
 
 
  148 014e 9E2B6B8E 		.ascii	"\236+k\216\334\3122=;\244\247\006{'{j\014j\240\210\314"
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  159      BE191B42 
  159      8443
  160 0222 7616E71C 		.ascii	"v\026\347\034\377\304\025\010_\0145\254\263\023\344"
-ARM GAS  /tmp/ccDdrJjs.s 			page 12
+ARM GAS  /tmp/ccBa3drt.s 			page 12
 
 
  160      FFC41508 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  172      887C8C9B 
  172      45D1BDF3 
  172      D84E37F2 
-ARM GAS  /tmp/ccDdrJjs.s 			page 13
+ARM GAS  /tmp/ccBa3drt.s 			page 13
 
 
  172      A2
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  184 03d8 487C1611 		.ascii	"H|\026\021>\370\215Hhj\260\352N\367\210\335\034\014"
  184      3EF88D48 
  184      686AB0EA 
-ARM GAS  /tmp/ccDdrJjs.s 			page 14
+ARM GAS  /tmp/ccBa3drt.s 			page 14
 
 
  184      4EF788DD 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  195      469715
  196 04b0 ACAB2D01 		.ascii	"\254\253-\001\363\215\244\317\367\202E\276\253\231\362"
  196      F38DA4CF 
-ARM GAS  /tmp/ccDdrJjs.s 			page 15
+ARM GAS  /tmp/ccBa3drt.s 			page 15
 
 
  196      F78245BE 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  208 058b 5E54B353 		.ascii	"^T\263S[\244<*\013T\242\355y\246]R\012\014\355eUf\215"
  208      5BA43C2A 
  208      0B54A2ED 
-ARM GAS  /tmp/ccDdrJjs.s 			page 16
+ARM GAS  /tmp/ccBa3drt.s 			page 16
 
 
  208      79A65D52 
@@ -943,7 +943,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  217 0630 D2D2FF00 		.ascii	"\322\322\377\000\346~X)"
  217      E67E5829 
  218              		.text
- 219              		.section	.gnu.lto_chHeapFree.da0952d596a8c6eb,"",%progbits
+ 219              		.section	.gnu.lto_chHeapFree.20f6aa3dccec2e09,"",%progbits
  220 0000 789C9556 		.ascii	"x\234\225Vkl\024U\024\276\347\336\235\235\231\235)\273"
  220      6B6C1455 
  220      14BEE7DE 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  222      8D8249F1 
  222      8F15F487 
  222      31A4C3
-ARM GAS  /tmp/ccDdrJjs.s 			page 17
+ARM GAS  /tmp/ccBa3drt.s 			page 17
 
 
  223 0032 B6CBC328 		.ascii	"\266\313\303(\301\020\313C\2601\320\200 \224\345\241"
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  234      C8A11487 
  234      27926BEB 
  234      43E2
-ARM GAS  /tmp/ccDdrJjs.s 			page 18
+ARM GAS  /tmp/ccBa3drt.s 			page 18
 
 
  235 010c 6960D8BF 		.ascii	"i`\330\277\\\333x\322\234Y\34781\307\351Z\342\230q!"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  246 01e2 ECA6D290 		.ascii	"\354\246\322\220(\326\247SSBM)\3151\326\203\030\007"
  246      28D6A753 
  246      53424D29 
-ARM GAS  /tmp/ccDdrJjs.s 			page 19
+ARM GAS  /tmp/ccBa3drt.s 			page 19
 
 
  246      CD31D683 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  257      DD61553E 
  257      9130E6
  258 02c2 D0919B30 		.ascii	"\320\221\23308\203#P)!\024H\010\011\202`(\010mG\202"
-ARM GAS  /tmp/ccDdrJjs.s 			page 20
+ARM GAS  /tmp/ccBa3drt.s 			page 20
 
 
  258      38832350 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  269      AE2A2356 
  269      93B8
  270 0396 DB22CF93 		.ascii	"\333\"\317\223+\345\271y\244\374\263\237\224\347\023"
-ARM GAS  /tmp/ccDdrJjs.s 			page 21
+ARM GAS  /tmp/ccBa3drt.s 			page 21
 
 
  270      2BE5B979 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  281      EB0C6234 
  281      8C8C9E97 
  281      8C
-ARM GAS  /tmp/ccDdrJjs.s 			page 22
+ARM GAS  /tmp/ccBa3drt.s 			page 22
 
 
  282 046a C66A2047 		.ascii	"\306j G\324cgR\306\216\020\260\013>\314Eh\333\016\017"
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  293      25F220DF 
  293      25D2E3E9 
  293      23952BCF 
-ARM GAS  /tmp/ccDdrJjs.s 			page 23
+ARM GAS  /tmp/ccBa3drt.s 			page 23
 
 
  293      1105322F 
@@ -1360,7 +1360,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  301      DD8AFF00 
  301      486A3FA4 
  302              		.text
- 303              		.section	.gnu.lto_chHeapStatus.da0952d596a8c6eb,"",%progbits
+ 303              		.section	.gnu.lto_chHeapStatus.20f6aa3dccec2e09,"",%progbits
  304 0000 789C7554 		.ascii	"x\234uT\337O\\E\024\2363s\177\354\3576M\214i\322\030"
  304      DF4F5C45 
  304      149E3373 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  306      5A8AC144 
  307 0042 AA0BDD16 		.ascii	"\252\013\335\026\245\264\246\230\246\325%\265\264\266"
  307      A5B4A698 
-ARM GAS  /tmp/ccDdrJjs.s 			page 24
+ARM GAS  /tmp/ccBa3drt.s 			page 24
 
 
  307      A6D525B5 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  318      8C83
  319 0117 89D1112A 		.ascii	"\211\321\021*\203\367\277=\247\207mQ\246\221\237\334"
  319      83F7BF3D 
-ARM GAS  /tmp/ccDdrJjs.s 			page 25
+ARM GAS  /tmp/ccBa3drt.s 			page 25
 
 
  319      A7876D51 
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  331      043CE180 
  331      68737AF4 
  331      6757CD80 
-ARM GAS  /tmp/ccDdrJjs.s 			page 26
+ARM GAS  /tmp/ccBa3drt.s 			page 26
 
 
  332 01f5 40C201BF 		.ascii	"@\302\001\277\200<\027\254\236\304\015Jf.MF5[\323\274"
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  342      DF6BFA
  343 02bd 544C7F41 		.ascii	"TL\177Aa\344\323j\310~\320Ed@\020i\245\351\010Z\217"
  343      61E4D36A 
-ARM GAS  /tmp/ccDdrJjs.s 			page 27
+ARM GAS  /tmp/ccBa3drt.s 			page 27
 
 
  343      C87ED045 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  354      EAD0
  355 0392 56028D43 		.ascii	"V\002\215C \\\316\234\367\266\317\300dR\335\345\350"
  355      205CCE9C 
-ARM GAS  /tmp/ccDdrJjs.s 			page 28
+ARM GAS  /tmp/ccBa3drt.s 			page 28
 
 
  355      F7B6CFC0 
@@ -1671,14 +1671,14 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  365      DA
  366 044b 36F3     		.ascii	"6\363"
  367              		.text
- 368              		.section	.gnu.lto_.symbol_nodes.da0952d596a8c6eb,"",%progbits
+ 368              		.section	.gnu.lto_.symbol_nodes.20f6aa3dccec2e09,"",%progbits
  369 0000 789C558C 		.ascii	"x\234U\214;\016\3020\020Dgb;NZ.\0208\351\272\210(\201"
  369      3B0EC230 
  369      10446762 
  369      3B4E5A2E 
  369      1038E9BA 
  370 0017 8A3F2848 		.ascii	"\212?(H9\00555\005\234\000)\022M:*\032`\215\204\204"
-ARM GAS  /tmp/ccDdrJjs.s 			page 29
+ARM GAS  /tmp/ccBa3drt.s 			page 29
 
 
  370      39053535 
@@ -1717,7 +1717,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  377      0720793F 
  377      41
  378              		.text
- 379              		.section	.gnu.lto_.refs.da0952d596a8c6eb,"",%progbits
+ 379              		.section	.gnu.lto_.refs.20f6aa3dccec2e09,"",%progbits
  380 0000 789C15C4 		.ascii	"x\234\025\304A\001\000 \020\303\260v7P\201\177\235@"
  380      41010020 
  380      10C3B076 
@@ -1729,7 +1729,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  381      8B0B0725 
  381      0057
  382              		.text
- 383              		.section	.gnu.lto_.decls.da0952d596a8c6eb,"",%progbits
+ 383              		.section	.gnu.lto_.decls.20f6aa3dccec2e09,"",%progbits
  384 0000 789CB55A 		.ascii	"x\234\265ZkPTI\226\256\274Y\024P\024\340\250\273\321"
  384      6B505449 
  384      96AEBC59 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  385 0013 BBC14EF4 		.ascii	"\273\301N\364v\3203Ll\214\264\335vOo\304\306nw\2701"
  385      76D0334C 
  385      6C8CB4DD 
-ARM GAS  /tmp/ccDdrJjs.s 			page 30
+ARM GAS  /tmp/ccBa3drt.s 			page 30
 
 
  385      764F6FC4 
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  397      735809B2 
  397      9A73D9A8 
  397      6298047B 
-ARM GAS  /tmp/ccDdrJjs.s 			page 31
+ARM GAS  /tmp/ccBa3drt.s 			page 31
 
 
  397      838A
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  409 01bb FB390774 		.ascii	"\3739\007tL\377\034\324\370]\257o\251\361*:\306\350"
  409      4CFF1CD4 
  409      F85DAF6F 
-ARM GAS  /tmp/ccDdrJjs.s 			page 32
+ARM GAS  /tmp/ccBa3drt.s 			page 32
 
 
  409      A9F12A3A 
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  420      9F9DEB
  421 029e 29F96C4D 		.ascii	")\371lM\323\000@#\00048\0028\247{\321\271\303\315\023"
  421      D3004023 
-ARM GAS  /tmp/ccDdrJjs.s 			page 33
+ARM GAS  /tmp/ccBa3drt.s 			page 33
 
 
  421      00343802 
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  432      4C91D685 
  432      956C5DC8 
  432      4DEA
-ARM GAS  /tmp/ccDdrJjs.s 			page 34
+ARM GAS  /tmp/ccBa3drt.s 			page 34
 
 
  433 037f ABC6F83A 		.ascii	"\253\306\370:\373nO\351\236f\037\334\303\224\202\306"
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  444      B155B1CA 
  445 044f 735A8D27 		.ascii	"sZ\215'Y\224\272*\007\233\344i\\\371\342KZ*O\301\375"
  445      5994BA2A 
-ARM GAS  /tmp/ccDdrJjs.s 			page 35
+ARM GAS  /tmp/ccBa3drt.s 			page 35
 
 
  445      079BE469 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  457 0521 AE8C193F 		.ascii	"\256\214\031?\012P~\010\214\021\003$\373\264\012\305"
  457      0A507E08 
  457      8C110324 
-ARM GAS  /tmp/ccDdrJjs.s 			page 36
+ARM GAS  /tmp/ccBa3drt.s 			page 36
 
 
  457      FBB40AC5 
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  469      3E468BA3 
  469      DDA83211 
  469      D3DC
-ARM GAS  /tmp/ccDdrJjs.s 			page 37
+ARM GAS  /tmp/ccBa3drt.s 			page 37
 
 
  470 05fe E3816399 		.ascii	"\343\201c\231\362\354I\357\033o\234\300\024q\356\342"
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  481      3A221BA7 
  481      3A0F2E35 
  481      66CB4566 
-ARM GAS  /tmp/ccDdrJjs.s 			page 38
+ARM GAS  /tmp/ccBa3drt.s 			page 38
 
 
  482 06dd 4E840205 		.ascii	"N\204\002\005#\025\237\2002\352\271\266\325\231\242"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  494 07ac 7A5BE5AF 		.ascii	"z[\345\257[E\352MG\313\016\202\025@.\360\271\032\032"
  494      5B45EA4D 
  494      47CB0E82 
-ARM GAS  /tmp/ccDdrJjs.s 			page 39
+ARM GAS  /tmp/ccBa3drt.s 			page 39
 
 
  494      15402EF0 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  507 0882 DB2FC94A 		.ascii	"\333/\311J\215]V\032Y\345\262\361r%|\3624W\3578^\235"
  507      8D5D561A 
  507      59E5B2F1 
-ARM GAS  /tmp/ccDdrJjs.s 			page 40
+ARM GAS  /tmp/ccBa3drt.s 			page 40
 
 
  507      72257CF2 
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  518      E7BE537A 
  518      07
  519 095a 9DD153D1 		.ascii	"\235\321S\321n\204\333\004p\033\207<\216\201\214\202"
-ARM GAS  /tmp/ccDdrJjs.s 			page 41
+ARM GAS  /tmp/ccBa3drt.s 			page 41
 
 
  519      6E84DB04 
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  530      5F74
  531 0a2f D20082CD 		.ascii	"\322\000\202\315\322\303Yn\247_\272h\215\306\364\201"
  531      D2C3596E 
-ARM GAS  /tmp/ccDdrJjs.s 			page 42
+ARM GAS  /tmp/ccBa3drt.s 			page 42
 
 
  531      A75FBA68 
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  543 0b01 48ABE28D 		.ascii	"H\253\342\215\375\206\245o\3547\260wS\307\347\236\326"
  543      FD86A56F 
  543      EC37B077 
-ARM GAS  /tmp/ccDdrJjs.s 			page 43
+ARM GAS  /tmp/ccBa3drt.s 			page 43
 
 
  543      53C7E79E 
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  555      411A200E 
  555      A70D14FB 
  555      E2320F
-ARM GAS  /tmp/ccDdrJjs.s 			page 44
+ARM GAS  /tmp/ccBa3drt.s 			page 44
 
 
  556 0bde 8A77E687 		.ascii	"\212w\346\207\306\034\3519F\000\375\374\221\256^\001"
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  567      204F86BA 
  568 0cb1 001707A3 		.ascii	"\000\027\007\243T\314\016FE\300\340\024\366GiX\371t"
  568      54CC0E46 
-ARM GAS  /tmp/ccDdrJjs.s 			page 45
+ARM GAS  /tmp/ccBa3drt.s 			page 45
 
 
  568      45C0E014 
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  579      3EA25334 
  579      01BBF48A 
  579      8D74A8
-ARM GAS  /tmp/ccDdrJjs.s 			page 46
+ARM GAS  /tmp/ccBa3drt.s 			page 46
 
 
  580 0d90 199391C0 		.ascii	"\031\223\221\300f\351H]\222\013d\321Z\344\031p\311\251"
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  591      CE369FD8 
  591      3D09F2FE 
  591      97FBDC
-ARM GAS  /tmp/ccDdrJjs.s 			page 47
+ARM GAS  /tmp/ccBa3drt.s 			page 47
 
 
  592 0e68 71150BDB 		.ascii	"q\025\013\333\302\365\354,A\271\213+\336\315\253P\031"
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  603      EF11D739 
  603      BD486934 
  603      48347292 
-ARM GAS  /tmp/ccDdrJjs.s 			page 48
+ARM GAS  /tmp/ccBa3drt.s 			page 48
 
 
  603      6E1CC39C 
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  616      4EC5FBE2 
  616      5AD6FB5C 
  616      4FE6A8FA 
-ARM GAS  /tmp/ccDdrJjs.s 			page 49
+ARM GAS  /tmp/ccBa3drt.s 			page 49
 
 
  616      C363A235 
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  628 10ec BF8A0FD0 		.ascii	"\277\212\017\320\365v\352\346\002\377\337YZ\362\223"
  628      F576EAE6 
  628      02FFDF59 
-ARM GAS  /tmp/ccDdrJjs.s 			page 50
+ARM GAS  /tmp/ccBa3drt.s 			page 50
 
 
  628      5AF293
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  640      0E345902 
  641 11c5 8D91268B 		.ascii	"\215\221&\2139\360\313\377\372z\375\327Q\201\301\221"
  641      39F0CBFF 
-ARM GAS  /tmp/ccDdrJjs.s 			page 51
+ARM GAS  /tmp/ccBa3drt.s 			page 51
 
 
  641      FA7AFDD7 
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  653      9325F173 
  653      1855BA5A 
  653      483B5C8D 
-ARM GAS  /tmp/ccDdrJjs.s 			page 52
+ARM GAS  /tmp/ccBa3drt.s 			page 52
 
 
  654 12a4 FA2D6141 		.ascii	"\372-aA[\315\356\226p\350Eu\263%\310b\360\260\320\013"
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  665      CAF564
  666 137b D90C7508 		.ascii	"\331\014u\010=Q\210\232\364E\333\324!\206 \243&D\277"
  666      3D51889A 
-ARM GAS  /tmp/ccDdrJjs.s 			page 53
+ARM GAS  /tmp/ccBa3drt.s 			page 53
 
 
  666      F445DBD4 
@@ -3176,9 +3176,9 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  677      8FD7FD1F 
  677      4EE7504A 
  678              		.text
- 679              		.section	.gnu.lto_.symtab.da0952d596a8c6eb,"",%progbits
+ 679              		.section	.gnu.lto_.symtab.20f6aa3dccec2e09,"",%progbits
  680 0000 5F686561 		.ascii	"_heap_init\000"
-ARM GAS  /tmp/ccDdrJjs.s 			page 54
+ARM GAS  /tmp/ccBa3drt.s 			page 54
 
 
  680      705F696E 
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  714      00000000 
  715 00a2 AC010000 		.ascii	"\254\001\000\000"
  716 00a6 63684D74 		.ascii	"chMtxObjectInit\000"
-ARM GAS  /tmp/ccDdrJjs.s 			page 55
+ARM GAS  /tmp/ccBa3drt.s 			page 55
 
 
  716      784F626A 
@@ -3298,14 +3298,14 @@ ARM GAS  /tmp/ccDdrJjs.s 			page 1
  741 00ff 2720272D 		.ascii	"' '-flto'\000"
  741      666C746F 
  741      2700
-ARM GAS  /tmp/ccDdrJjs.s 			page 56
+ARM GAS  /tmp/ccBa3drt.s 			page 56
 
 
  742              		.text
  743              		.comm	__gnu_lto_v1,1,1
  744              		.comm	__gnu_lto_slim,1,1
  745              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/ccDdrJjs.s 			page 57
+ARM GAS  /tmp/ccBa3drt.s 			page 57
 
 
 DEFINED SYMBOLS

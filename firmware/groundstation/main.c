@@ -19,11 +19,11 @@ static THD_FUNCTION(Thread1, arg) {
   while (true) {
     // Update LED pins
     palSetPad(GPIOA, GPIOA_STAT_HBT);
-    palSetPad(GPIOA, GPIOA_STAT_WRN);
-    chThdSleepMilliseconds(500);
-    palClearPad(GPIOA, GPIOA_STAT_HBT);
     palClearPad(GPIOA, GPIOA_STAT_WRN);
-    chThdSleepMilliseconds(500);
+    chThdSleepMilliseconds(250);
+    palSetPad(GPIOA, GPIOA_STAT_WRN);
+    palClearPad(GPIOA, GPIOA_STAT_HBT);
+    chThdSleepMilliseconds(250);
   }
 }
 
@@ -52,6 +52,7 @@ int main(void) {
    * Normal main() thread activity, in this demo it does nothing.
    */
   while (true) {
+	chThdSleepMilliseconds(1000);
   }
 }
 

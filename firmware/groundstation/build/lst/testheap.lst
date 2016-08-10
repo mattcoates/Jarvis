@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc327ATv.s 			page 1
+ARM GAS  /tmp/ccvrSpM8.s 			page 1
 
 
    1              		.syntax unified
@@ -18,14 +18,14 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   15              		.file	"testheap.c"
   16              		.text
   17              	.Ltext0:
-  18              		.section	.gnu.lto_.profile.de51bd6128f12f91,"",%progbits
+  18              		.section	.gnu.lto_.profile.cf7ee34cb7beb942,"",%progbits
   19 0000 789C6361 		.ascii	"x\234ca`d`c`\000\222\017Y\2373\002\000\005\366\001\333"
   19      60646063 
   19      6000920F 
   19      599F3302 
   19      0005F601 
   20              		.text
-  21              		.section	.gnu.lto_.icf.de51bd6128f12f91,"",%progbits
+  21              		.section	.gnu.lto_.icf.cf7ee34cb7beb942,"",%progbits
   22 0000 789C6361 		.ascii	"x\234ca`d\000\001y\006\004`e\230s\356\350zf\306I;\327"
   22      60640001 
   22      79060460 
@@ -38,7 +38,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   23      ED3DB44D 
   24 002e E3340DFC 		.ascii	"\3434\015\374"
   25              		.text
-  26              		.section	.gnu.lto_.jmpfuncs.de51bd6128f12f91,"",%progbits
+  26              		.section	.gnu.lto_.jmpfuncs.cf7ee34cb7beb942,"",%progbits
   27 0000 789C9552 		.ascii	"x\234\225R[K\302`\030\336\263-\265\262\264\373.\372"
   27      5B4BC260 
   27      18DEB32D 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   30      6E0D0663 
   30      CFF17DBF 
   30      8F67C090 
-ARM GAS  /tmp/cc327ATv.s 			page 2
+ARM GAS  /tmp/ccvrSpM8.s 			page 2
 
 
   30      67D8
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   42 0117 D1031AC0 		.ascii	"\321\003\032\300\231&\273\363\006\026\325\305\363\210"
   42      9926BBF3 
   42      0616D5C5 
-ARM GAS  /tmp/cc327ATv.s 			page 3
+ARM GAS  /tmp/ccvrSpM8.s 			page 3
 
 
   42      F388
@@ -164,7 +164,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   50      F607578A 
   51 01bd A10C     		.ascii	"\241\014"
   52              		.text
-  53              		.section	.gnu.lto_.inline.de51bd6128f12f91,"",%progbits
+  53              		.section	.gnu.lto_.inline.cf7ee34cb7beb942,"",%progbits
   54 0000 789C6361 		.ascii	"x\234ca`d\000\201\275\020\012\014\230\0308\2360\236"
   54      60640081 
   54      BD100A0C 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   56 0027 22D30C4C 		.ascii	"\"\323\014L\334\014\014\214\030\2420.D\023\003v=(Zq"
   56      DC0C0C8C 
   56      18A2302E 
-ARM GAS  /tmp/cc327ATv.s 			page 4
+ARM GAS  /tmp/ccvrSpM8.s 			page 4
 
 
   56      44130376 
@@ -195,14 +195,14 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   58      29620631 
   59 0062 E922207D 		.ascii	"\351\" }"
   60              		.text
-  61              		.section	.gnu.lto_.pureconst.de51bd6128f12f91,"",%progbits
+  61              		.section	.gnu.lto_.pureconst.cf7ee34cb7beb942,"",%progbits
   62 0000 789C6361 		.ascii	"x\234ca`d`e```b\220`\222\000\000\000\347\000?"
   62      60646065 
   62      60606062 
   62      90609200 
   62      0000E700 
   63              		.text
-  64              		.section	.gnu.lto_heap1_execute.de51bd6128f12f91,"",%progbits
+  64              		.section	.gnu.lto_heap1_execute.cf7ee34cb7beb942,"",%progbits
   65 0000 789C9559 		.ascii	"x\234\225Y}LTW\026\277\347\276\371\236a\206\241HH\226"
   65      7D4C5457 
   65      16BFE7BE 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   71      D24548A1 
   71      8BD260CB 
   71      EF89
-ARM GAS  /tmp/cc327ATv.s 			page 5
+ARM GAS  /tmp/ccvrSpM8.s 			page 5
 
 
   72 0090 EA51CEA7 		.ascii	"\352Q\316\247\021\325\247h\226\215[6\315\262s\313\256"
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   83      6BC27EC8 
   83      807D90C1 
   83      D766CEA3 
-ARM GAS  /tmp/cc327ATv.s 			page 6
+ARM GAS  /tmp/ccvrSpM8.s 			page 6
 
 
   84 016a D976BF92 		.ascii	"\331v\277\222\305'\326\356\272\264\331.&\252\365k\324"
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
   95 0231 A2C3341C 		.ascii	"\242\3034\034\313\301f\006w\310\345\016\317\342\320"
   95      CBC16606 
   95      77C8E50E 
-ARM GAS  /tmp/cc327ATv.s 			page 7
+ARM GAS  /tmp/ccvrSpM8.s 			page 7
 
 
   95      CFE2D0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  106      2023A404 
  107 030f C875A05C 		.ascii	"\310u\240\\\"\214\030\266\010\351\207\342\206\322\013"
  107      228C18B6 
-ARM GAS  /tmp/cc327ATv.s 			page 8
+ARM GAS  /tmp/ccvrSpM8.s 			page 8
 
 
  107      08E987E2 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  119      04540809 
  119      431B1418 
  119      62FBDB38 
-ARM GAS  /tmp/cc327ATv.s 			page 9
+ARM GAS  /tmp/ccvrSpM8.s 			page 9
 
 
  119      99B5
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  131      4932E5FC 
  131      C71A2FD7 
  131      CC94F3AD 
-ARM GAS  /tmp/cc327ATv.s 			page 10
+ARM GAS  /tmp/ccvrSpM8.s 			page 10
 
 
  131      C1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  143      7ECC4537 
  143      43175DB7 
  143      768A6765 
-ARM GAS  /tmp/cc327ATv.s 			page 11
+ARM GAS  /tmp/ccvrSpM8.s 			page 11
 
 
  143      A28B583B 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  154      067B
  155 0670 8B9F9AE1 		.ascii	"\213\237\232\341D\312\274\304\301_\252\256\232\3377"
  155      44CABCC4 
-ARM GAS  /tmp/cc327ATv.s 			page 12
+ARM GAS  /tmp/ccvrSpM8.s 			page 12
 
 
  155      C15FAAAE 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  167      A259638D 
  167      875AB368 
  167      1E34B838 
-ARM GAS  /tmp/cc327ATv.s 			page 13
+ARM GAS  /tmp/ccvrSpM8.s 			page 13
 
 
  167      C4B9
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  180 0822 56F54017 		.ascii	"V\365@\027*ku\214\262\326D)+\300\225\305^I\315\323\361"
  180      2A6B758C 
  180      B2D64429 
-ARM GAS  /tmp/cc327ATv.s 			page 14
+ARM GAS  /tmp/ccvrSpM8.s 			page 14
 
 
  180      2BC095C5 
@@ -838,11 +838,11 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  192      E9FAA7FF 
  192      0F85A063 
  192      AE
-ARM GAS  /tmp/cc327ATv.s 			page 15
+ARM GAS  /tmp/ccvrSpM8.s 			page 15
 
 
  193              		.text
- 194              		.section	.gnu.lto_heap1_setup.de51bd6128f12f91,"",%progbits
+ 194              		.section	.gnu.lto_heap1_setup.cf7ee34cb7beb942,"",%progbits
  195 0000 789C6D90 		.ascii	"x\234m\220MKBA\024\206\347\2351\275\225E\313 \011\241"
  195      4D4B4241 
  195      1486E79D 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  206      AD6DA9F2 
  206      BDEF9D2B 
  206      41C57F56 
-ARM GAS  /tmp/cc327ATv.s 			page 16
+ARM GAS  /tmp/ccvrSpM8.s 			page 16
 
 
  206      9E
@@ -942,7 +942,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  214      663F4FDD 
  214      A0A8
  215              		.text
- 216              		.section	.gnu.lto_patternheap.de51bd6128f12f91,"",%progbits
+ 216              		.section	.gnu.lto_patternheap.cf7ee34cb7beb942,"",%progbits
  217 0000 789C6361 		.ascii	"x\234ca`d\000\001? V`\200\200\277L\214\323Z\017\235"
  217      60640001 
  217      3F205660 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  219      4E6688C2 
  219      9E47
  220 0036 4DD3982C 		.ascii	"M\323\230,\2665t,hPhefd4\224a\\\301X\317h$\303\270\234"
-ARM GAS  /tmp/cc327ATv.s 			page 17
+ARM GAS  /tmp/ccvrSpM8.s 			page 17
 
 
  220      B635742C 
@@ -977,7 +977,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  222      660000F7 
  223 0077 25B9     		.ascii	"%\271"
  224              		.text
- 225              		.section	.gnu.lto_testheap1.de51bd6128f12f91,"",%progbits
+ 225              		.section	.gnu.lto_testheap1.cf7ee34cb7beb942,"",%progbits
  226 0000 789C6361 		.ascii	"x\234ca`d\000\201\205@\354\311\000\001\177\231\030w"
  226      60640081 
  226      8540ECC9 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  233      B89CB19E 
  233      81710D
  234 008f A305839C 		.ascii	"\243\005\203\234\236\236\276sFfR\246\177\260~Ijq\211"
-ARM GAS  /tmp/cc327ATv.s 			page 18
+ARM GAS  /tmp/ccvrSpM8.s 			page 18
 
 
  234      9E9EBE73 
@@ -1039,7 +1039,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  237      720600FB 
  237      AC5776
  238              		.text
- 239              		.section	.gnu.lto_.symbol_nodes.de51bd6128f12f91,"",%progbits
+ 239              		.section	.gnu.lto_.symbol_nodes.cf7ee34cb7beb942,"",%progbits
  240 0000 789C5D90 		.ascii	"x\234]\220\301J\303@\024E\357\233I\322\252\273\256\003"
  240      C14AC340 
  240      1445EF9B 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  247      27ECC40C 
  247      FE0A
  248 008a 1AFB709F 		.ascii	"\032\373p\237?\2421@E\356\241!\023T_\236C\330\213\357"
-ARM GAS  /tmp/cc327ATv.s 			page 19
+ARM GAS  /tmp/ccvrSpM8.s 			page 19
 
 
  248      3FA23140 
@@ -1121,7 +1121,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  256      FCF3F805 
  256      B9FE7DAB 
  257              		.text
- 258              		.section	.gnu.lto_.refs.de51bd6128f12f91,"",%progbits
+ 258              		.section	.gnu.lto_.refs.cf7ee34cb7beb942,"",%progbits
  259 0000 789C0DCB 		.ascii	"x\234\015\313\261\012\201\001\000E\341{\216\337J\262"
  259      B10A8101 
  259      0045E17B 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  261      92B56C
  262 0035 642B3BD9 		.ascii	"d+;\331\313A\216r\222\263\\\344\326\347^\217z\326\253"
  262      CB418E72 
-ARM GAS  /tmp/cc327ATv.s 			page 20
+ARM GAS  /tmp/ccvrSpM8.s 			page 20
 
 
  262      92B35CE4 
@@ -1150,7 +1150,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  263      FEF8130A 
  264 0058 70       		.ascii	"p"
  265              		.text
- 266              		.section	.gnu.lto_.decls.de51bd6128f12f91,"",%progbits
+ 266              		.section	.gnu.lto_.decls.cf7ee34cb7beb942,"",%progbits
  267 0000 789CB55A 		.ascii	"x\234\265Z{PTiv\357\357~\335\0154\015\030u7\263)vk2"
  267      7B505469 
  267      76EFEF7E 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  276      D01E439B 
  276      80A605
  277 00b7 9E29383E 		.ascii	"\236)8>\207\346#h4\276\202F\365G\306\377\200\343-\205"
-ARM GAS  /tmp/cc327ATv.s 			page 21
+ARM GAS  /tmp/ccvrSpM8.s 			page 21
 
 
  277      87E62368 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  288      F8B1CB
  289 0188 76227BDF 		.ascii	"v\"{\337\233\343]>X@\344\274y*y\227/\366\241\347%q\355"
  289      9BE35D3E 
-ARM GAS  /tmp/cc327ATv.s 			page 22
+ARM GAS  /tmp/ccvrSpM8.s 			page 22
 
 
  289      5840E4BC 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  300      23005D4E 
  300      F4A9077D 
  301 0269 B83EB5D0 		.ascii	"\270>\265\320y\026:\231m-\227\377;c\0138\002\325\201"
-ARM GAS  /tmp/cc327ATv.s 			page 23
+ARM GAS  /tmp/ccvrSpM8.s 			page 23
 
 
  301      79163A99 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  312      3E512164 
  312      65771D0E 
  313 0343 C0EDCC38 		.ascii	"\300\355\3148)\013\227\262,<\366\260\241PJ;\001\350"
-ARM GAS  /tmp/cc327ATv.s 			page 24
+ARM GAS  /tmp/ccvrSpM8.s 			page 24
 
 
  313      290B97B2 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  324      6B8EB484 
  324      6D067C97 
  324      A973
-ARM GAS  /tmp/cc327ATv.s 			page 25
+ARM GAS  /tmp/ccvrSpM8.s 			page 25
 
 
  325 041b E2414191 		.ascii	"\342AA\221\217d\263=[\017\000\367\001\340\236+\200{"
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  336      67779D1B 
  336      F5
  337 04ee C6A71851 		.ascii	"\306\247\030Q\224\326~\012c\007#\222\217$;\374\361M"
-ARM GAS  /tmp/cc327ATv.s 			page 26
+ARM GAS  /tmp/ccvrSpM8.s 			page 26
 
 
  337      94D67E0A 
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  348      2B1287CA 
  348      BCE15A20 
  348      A4
-ARM GAS  /tmp/cc327ATv.s 			page 27
+ARM GAS  /tmp/ccvrSpM8.s 			page 27
 
 
  349 05bc 045254BE 		.ascii	"\004RT\276@V\371\252\355SG\265x\220y\251\245\252\373"
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  360      B4D73D52 
  360      715D4B99 
  360      161730A8 
-ARM GAS  /tmp/cc327ATv.s 			page 28
+ARM GAS  /tmp/ccvrSpM8.s 			page 28
 
 
  360      F657
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  372      6DDEB89B 
  372      111363B7 
  373 0769 5EFBE17E 		.ascii	"^\373\341~F\330\246\353{\364\370\016#zw\275\032\364"
-ARM GAS  /tmp/cc327ATv.s 			page 29
+ARM GAS  /tmp/ccvrSpM8.s 			page 29
 
 
  373      46D8A6EB 
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  384      D3EE
  385 083c 9D4B9959 		.ascii	"\235K\231Y}\310K5\332 #\201I\303\003PF=\331\264<\317"
  385      7DC84B35 
-ARM GAS  /tmp/cc327ATv.s 			page 30
+ARM GAS  /tmp/ccvrSpM8.s 			page 30
 
 
  385      DA202381 
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  397      E09B2072 
  397      80DFE5D0 
  397      61A47967 
-ARM GAS  /tmp/cc327ATv.s 			page 31
+ARM GAS  /tmp/ccvrSpM8.s 			page 31
 
 
  397      3406AD20 
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  409 09ed 2B92F0C9 		.ascii	"+\222\360\311\355\330]Wyw\324\370\220b\351\035\264\366"
  409      EDD85D57 
  409      7977D4F8 
-ARM GAS  /tmp/cc327ATv.s 			page 32
+ARM GAS  /tmp/ccvrSpM8.s 			page 32
 
 
  409      9062E91D 
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  420      5968CF
  421 0acb A13D8336 		.ascii	"\241=\2036\245\362G}\033\235[\022\365\257\001\217\010"
  421      A5F2477D 
-ARM GAS  /tmp/cc327ATv.s 			page 33
+ARM GAS  /tmp/ccvrSpM8.s 			page 33
 
 
  421      1B9D5B12 
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  433      1BD61D7C 
  433      DDE17742 
  433      6CA7BA4D 
-ARM GAS  /tmp/cc327ATv.s 			page 34
+ARM GAS  /tmp/ccvrSpM8.s 			page 34
 
 
  433      9083
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  445      B49C6D77 
  445      97B33BCA 
  445      20B29535 
-ARM GAS  /tmp/cc327ATv.s 			page 35
+ARM GAS  /tmp/ccvrSpM8.s 			page 35
 
 
  445      0679A8
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  457      4901F936 
  457      7BEE7BF4 
  457      85DB19
-ARM GAS  /tmp/cc327ATv.s 			page 36
+ARM GAS  /tmp/ccvrSpM8.s 			page 36
 
 
  458 0d55 CF563149 		.ascii	"\317V1I;\035\230H\002\236\205\222Z$\023\310{/\007\237"
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  469 0e17 DBA59F4D 		.ascii	"\333\245\237M\340\257\007\033\311\213\304\356\266\236"
  469      E0AF071B 
  469      C98BC4EE 
-ARM GAS  /tmp/cc327ATv.s 			page 37
+ARM GAS  /tmp/ccvrSpM8.s 			page 37
 
 
  469      B69E
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  480      99CF6097 
  480      BC
  481 0ef6 CC63B5A2 		.ascii	"\314c\265\242\036\273>\025\332:\362\262\327\210\333"
-ARM GAS  /tmp/cc327ATv.s 			page 38
+ARM GAS  /tmp/ccvrSpM8.s 			page 38
 
 
  481      1EBB3E15 
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  493      691BBA
  494 0fc5 A97F670F 		.ascii	"\251\177g\017\004\253m\360vEx\356Y\330],\325\022&\324"
  494      04AB6DF0 
-ARM GAS  /tmp/cc327ATv.s 			page 39
+ARM GAS  /tmp/ccvrSpM8.s 			page 39
 
 
  494      764578EE 
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  505      FD70F371 
  505      4597169F 
  505      64
-ARM GAS  /tmp/cc327ATv.s 			page 40
+ARM GAS  /tmp/ccvrSpM8.s 			page 40
 
 
  506 10a5 7E38BD39 		.ascii	"~8\2759\351\252\237j- ;\010\305SE,=hN\237\257n\361\245"
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  516      F32968D8 
  517 1183 69DEBB2F 		.ascii	"i\336\273/\311\236\216(\023z$\303=\222\340\036S\270"
  517      C99E8E28 
-ARM GAS  /tmp/cc327ATv.s 			page 41
+ARM GAS  /tmp/ccvrSpM8.s 			page 41
 
 
  517      137A24C3 
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  528      E77AF269 
  528      0117B361 
  529 1262 774F7520 		.ascii	"wOu \\\312\210\363;[/x\343\303\214h\177S\332\344\217"
-ARM GAS  /tmp/cc327ATv.s 			page 42
+ARM GAS  /tmp/ccvrSpM8.s 			page 42
 
 
  529      5CCA88F3 
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  540      DAAA5D8A 
  540      5EF03897 
  540      8792
-ARM GAS  /tmp/cc327ATv.s 			page 43
+ARM GAS  /tmp/ccvrSpM8.s 			page 43
 
 
  541 133d 9EAF60ED 		.ascii	"\236\257`\355K\326\222H\257\211\267Yp-\013\256\362\301"
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  552 140a 299B060F 		.ascii	")\233\006\017\025B\011\262\350\275H\2560\250\224\205"
  552      154209B2 
  552      E8BD48AE 
-ARM GAS  /tmp/cc327ATv.s 			page 44
+ARM GAS  /tmp/ccvrSpM8.s 			page 44
 
 
  552      30A89485 
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  564 14e1 E0D0B0D0 		.ascii	"\340\320\260\320h\213\031\206\370\022\255M\360\263\326"
  564      688B1986 
  564      F812AD4D 
-ARM GAS  /tmp/cc327ATv.s 			page 45
+ARM GAS  /tmp/ccvrSpM8.s 			page 45
 
 
  564      F0B3D6
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  575      313AAB29 
  575      344AD441 
  576 15c7 ADB85C23 		.ascii	"\255\270\\#\310\202k!1a\340V\335\006Q\264\304,e\342"
-ARM GAS  /tmp/cc327ATv.s 			page 46
+ARM GAS  /tmp/ccvrSpM8.s 			page 46
 
 
  576      C8826B21 
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  587      897FBD58 
  587      E48A
  588 169f 1B01EB9D 		.ascii	"\033\001\353\235E8\254\241ak\201\345o\026c\331d\225"
-ARM GAS  /tmp/cc327ATv.s 			page 47
+ARM GAS  /tmp/ccvrSpM8.s 			page 47
 
 
  588      4538ACA1 
@@ -2816,9 +2816,9 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  598      145EF57F 
  599 1770 D05258A4 		.ascii	"\320RX\244"
  600              		.text
- 601              		.section	.gnu.lto_.symtab.de51bd6128f12f91,"",%progbits
+ 601              		.section	.gnu.lto_.symtab.cf7ee34cb7beb942,"",%progbits
  602 0000 70617474 		.ascii	"patternheap\000"
-ARM GAS  /tmp/cc327ATv.s 			page 48
+ARM GAS  /tmp/ccvrSpM8.s 			page 48
 
 
  602      65726E68 
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  638 009a 63684865 		.ascii	"chHeapAlloc\000"
  638      6170416C 
  638      6C6F6300 
-ARM GAS  /tmp/cc327ATv.s 			page 49
+ARM GAS  /tmp/ccvrSpM8.s 			page 49
 
 
  639 00a6 00       		.ascii	"\000"
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  662      6F6E7327 
  663 00ff 2720272D 		.ascii	"' '-flto'\000"
  663      666C746F 
-ARM GAS  /tmp/cc327ATv.s 			page 50
+ARM GAS  /tmp/ccvrSpM8.s 			page 50
 
 
  663      2700
@@ -2946,7 +2946,7 @@ ARM GAS  /tmp/cc327ATv.s 			page 1
  665              		.comm	__gnu_lto_v1,1,1
  666              		.comm	__gnu_lto_slim,1,1
  667              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/cc327ATv.s 			page 51
+ARM GAS  /tmp/ccvrSpM8.s 			page 51
 
 
 DEFINED SYMBOLS
