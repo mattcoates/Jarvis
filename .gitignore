@@ -24,7 +24,7 @@ _autosave*
 *.o
 *.dep
 firmware/groundstation/build/
-
+firmware/jarvis/build/
 *~
 
 *.*~
