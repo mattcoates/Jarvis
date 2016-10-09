@@ -1,11 +1,10 @@
 build/obj/vectors.o: \
  ../ChibiOS/os/common/ports/ARMCMx/compilers/GCC/vectors.c \
- /usr/lib/gcc/arm-none-eabi/5.4.1/include/stdbool.h \
- /usr/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \
  /usr/arm-none-eabi/include/sys/features.h \
- /usr/arm-none-eabi/include/_newlib_version.h \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
  ../ChibiOS/os/common/ports/ARMCMx/compilers/GCC/vectors.h \
@@ -17,17 +16,15 @@ build/obj/vectors.o: \
  ../ChibiOS/os/ext/CMSIS/include/core_cmFunc.h \
  ../ChibiOS/os/ext/CMSIS/ST/STM32F0xx/system_stm32f0xx.h
 
-/usr/lib/gcc/arm-none-eabi/5.4.1/include/stdbool.h:
+/usr/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
 
-/usr/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h:
+/usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
 
 /usr/arm-none-eabi/include/stdint.h:
 
 /usr/arm-none-eabi/include/machine/_default_types.h:
 
 /usr/arm-none-eabi/include/sys/features.h:
-
-/usr/arm-none-eabi/include/_newlib_version.h:
 
 /usr/arm-none-eabi/include/sys/_intsup.h:
 

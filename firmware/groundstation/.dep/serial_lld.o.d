@@ -1,15 +1,14 @@
 build/obj/serial_lld.o: \
  ../ChibiOS/os/hal/ports/STM32/LLD/USARTv2/serial_lld.c \
  ../ChibiOS/os/hal/include/hal.h ../ChibiOS/os/hal/osal/rt/osal.h \
- /usr/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
- /usr/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \
  /usr/arm-none-eabi/include/sys/features.h \
- /usr/arm-none-eabi/include/_newlib_version.h \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
- /usr/lib/gcc/arm-none-eabi/5.4.1/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h \
  ../ChibiOS/os/rt/include/ch.h \
  ../ChibiOS/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h chconf.h \
  ../ChibiOS/os/rt/include/chlicense.h \
@@ -72,9 +71,9 @@ build/obj/serial_lld.o: \
 
 ../ChibiOS/os/hal/osal/rt/osal.h:
 
-/usr/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h:
+/usr/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h:
 
-/usr/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h:
+/usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
 
 /usr/arm-none-eabi/include/stdint.h:
 
@@ -82,13 +81,11 @@ build/obj/serial_lld.o: \
 
 /usr/arm-none-eabi/include/sys/features.h:
 
-/usr/arm-none-eabi/include/_newlib_version.h:
-
 /usr/arm-none-eabi/include/sys/_intsup.h:
 
 /usr/arm-none-eabi/include/sys/_stdint.h:
 
-/usr/lib/gcc/arm-none-eabi/5.4.1/include/stdbool.h:
+/usr/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
 
 ../ChibiOS/os/rt/include/ch.h:
 
