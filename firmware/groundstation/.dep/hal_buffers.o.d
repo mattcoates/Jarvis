@@ -1,12 +1,13 @@
 build/obj/hal_buffers.o: ../ChibiOS/os/hal/src/hal_buffers.c \
  /usr/arm-none-eabi/include/string.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib.h \
+ /usr/arm-none-eabi/include/_newlib_version.h \
  /usr/arm-none-eabi/include/sys/config.h \
  /usr/arm-none-eabi/include/machine/ieeefp.h \
  /usr/arm-none-eabi/include/sys/features.h \
  /usr/arm-none-eabi/include/sys/reent.h \
  /usr/arm-none-eabi/include/_ansi.h \
- /usr/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h \
+ /usr/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
  /usr/arm-none-eabi/include/sys/_types.h \
  /usr/arm-none-eabi/include/machine/_types.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \
@@ -14,11 +15,11 @@ build/obj/hal_buffers.o: ../ChibiOS/os/hal/src/hal_buffers.c \
  /usr/arm-none-eabi/include/sys/cdefs.h \
  /usr/arm-none-eabi/include/sys/string.h ../ChibiOS/os/hal/include/hal.h \
  ../ChibiOS/os/hal/osal/rt/osal.h \
- /usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
+ /usr/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
- /usr/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h \
+ /usr/lib/gcc/arm-none-eabi/5.4.1/include/stdbool.h \
  ../ChibiOS/os/rt/include/ch.h \
  ../ChibiOS/os/rt/ports/ARMCMx/compilers/GCC/chtypes.h chconf.h \
  ../ChibiOS/os/rt/include/chlicense.h \
@@ -83,6 +84,8 @@ build/obj/hal_buffers.o: ../ChibiOS/os/hal/src/hal_buffers.c \
 
 /usr/arm-none-eabi/include/newlib.h:
 
+/usr/arm-none-eabi/include/_newlib_version.h:
+
 /usr/arm-none-eabi/include/sys/config.h:
 
 /usr/arm-none-eabi/include/machine/ieeefp.h:
@@ -93,7 +96,7 @@ build/obj/hal_buffers.o: ../ChibiOS/os/hal/src/hal_buffers.c \
 
 /usr/arm-none-eabi/include/_ansi.h:
 
-/usr/lib/gcc/arm-none-eabi/4.9.3/include/stddef.h:
+/usr/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h:
 
 /usr/arm-none-eabi/include/sys/_types.h:
 
@@ -111,7 +114,7 @@ build/obj/hal_buffers.o: ../ChibiOS/os/hal/src/hal_buffers.c \
 
 ../ChibiOS/os/hal/osal/rt/osal.h:
 
-/usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
+/usr/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h:
 
 /usr/arm-none-eabi/include/stdint.h:
 
@@ -119,7 +122,7 @@ build/obj/hal_buffers.o: ../ChibiOS/os/hal/src/hal_buffers.c \
 
 /usr/arm-none-eabi/include/sys/_stdint.h:
 
-/usr/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h:
+/usr/lib/gcc/arm-none-eabi/5.4.1/include/stdbool.h:
 
 ../ChibiOS/os/rt/include/ch.h:
 

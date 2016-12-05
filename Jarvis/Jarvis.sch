@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:agg-kicad
-LIBS:sma
 LIBS:Jarvis-cache
 EELAYER 25 0
 EELAYER END
@@ -2743,7 +2741,7 @@ P 14950 6600
 F 0 "IC7" H 14750 6900 50  0000 L CNN
 F 1 "S25FL127S" H 14750 6300 50  0000 L CNN
 F 2 "agg:S25FL127S" H 14750 6200 50  0001 L CNN
-F 3 "https://www.spansion.com/Support/Datasheets/S25FL127S_00.pdf" H 14750 6100 50  0001 L CNN
+F 3 "http://www.spansion.com/Support/Datasheets/S25FL127S_00.pdf" H 14750 6100 50  0001 L CNN
 F 4 "2328003" H 14750 6000 50  0001 L CNN "Farnell"
 	1    14950 6600
 	1    0    0    -1  
