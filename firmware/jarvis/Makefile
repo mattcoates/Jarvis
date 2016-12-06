@@ -218,8 +218,7 @@ RULESPATH = $(CHIBIOS)/os/common/ports/ARMCMx/compilers/GCC
 include $(RULESPATH)/rules.mk
 
 ##############################################################################
-
-# M3Debug flashing via GDB
+# BMP Flashing via GDB
 #
 flash: build/$(PROJECT).elf
 	arm-none-eabi-gdb --batch \

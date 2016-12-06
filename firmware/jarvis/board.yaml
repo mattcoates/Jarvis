@@ -50,4 +50,3 @@ pins:
     SPI2_MISO:  pb14, af5
     SPI2_SCK:   pb10, af5
     
-    
