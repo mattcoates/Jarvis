@@ -1,11 +1,7 @@
-/*
- *  JARVIS FLIGHT COMPUTER
- */
-
 #include "ch.h"
 #include "hal.h"
- 
- 
+
+
 /* Heartbeat Thread */ 
 static THD_WORKING_AREA(waHBT, 128);
 static THD_FUNCTION(HBT, arg) {
@@ -19,6 +15,7 @@ static THD_FUNCTION(HBT, arg) {
         chThdSleepMilliseconds(500);
     }
 }
+
 
 /* EXT Interrupt Config */
 static const EXTConfig extcfg = {
@@ -49,10 +46,14 @@ static const EXTConfig extcfg = {
   }
 };
 
+
 /* Application Entry Point */
 int main(void) {
 
-    /* System Init */
+    /* Allow debug access during WFI sleep */
+    DBGMCU->CR |= DBGMCU_CR_DBG_SLEEP;
+
+    /* Initialise ChibiOS */
     halInit();
     chSysInit();
     
@@ -62,7 +63,7 @@ int main(void) {
     /* Heartbeat Init */
     chThdCreateStatic(waHBT, sizeof(waHBT), NORMALPRIO, HBT, NULL);
 
-    /* Idle Loop */
+    /* Do Nothing */
     while (true) {
     }
 }

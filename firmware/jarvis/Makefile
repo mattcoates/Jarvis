@@ -115,7 +115,7 @@ CSRC = $(STARTUPSRC) \
        $(PLATFORMSRC) \
        $(BOARDSRC) \
        $(TESTSRC) \
-       main.c
+       main.c ms5611.c
 
 # C++ sources that can be compiled in ARM or THUMB mode depending on the global
 # setting.

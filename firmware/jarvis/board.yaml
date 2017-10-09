@@ -1,7 +1,7 @@
 name: Jarvis Flight Computer
 lsefreq: 0
 hsefreq: 26000000
-voltage: 3.3
+voltage: 3.0
 mcutype: STM32F411xE
 default: input, pushpull, starthigh, pullup, highspeed
 pins:
@@ -40,8 +40,8 @@ pins:
     GPS_RST:    pb1, output, pushpull, pullup
     FLASH_RST:  pb2, output, pushpull, pullup
     
-    I2C1_SDA:   pb7, af4
-    I2C1_SCL:   pb6, af4
+    I2C1_SDA:   pb7, af4, opendrain
+    I2C1_SCL:   pb6, af4, opendrain
     
     MPU_CS:     pb9, output, pushpull
     MPU_IRQ:    pb13, input

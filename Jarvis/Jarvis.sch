@@ -1,12 +1,9 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
+LIBS:Jarvis-rescue
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -21,15 +18,15 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
+LIBS:agg-kicad
+LIBS:sma
 LIBS:Jarvis-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -44,7 +41,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SWD_TC P3
+L SWD_TC-RESCUE-Jarvis P3
 U 1 1 56EB1724
 P 2600 7600
 F 0 "P3" H 2300 7800 50  0000 L CNN
@@ -747,7 +744,7 @@ F 3 "" H 3150 1500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-Jarvis D1
 U 1 1 56F5ECA6
 P 12650 4800
 F 0 "D1" H 12650 4900 50  0000 C CNN
@@ -759,7 +756,7 @@ F 4 "1328306" H 12650 4800 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-Jarvis D4
 U 1 1 56F61B35
 P 15000 4800
 F 0 "D4" H 15000 4900 50  0000 C CNN
@@ -2020,7 +2017,7 @@ $EndComp
 Text Notes 11550 5750 0    60   Italic 0
 COMPLETE
 $Comp
-L LED D2
+L LED-RESCUE-Jarvis D2
 U 1 1 56FE9FC1
 P 13450 4800
 F 0 "D2" H 13450 4900 50  0000 C CNN
@@ -2032,7 +2029,7 @@ F 4 "1328306" H 13450 4800 60  0001 C CNN "Farnell"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-Jarvis D3
 U 1 1 56FEA13F
 P 14200 4800
 F 0 "D3" H 14200 4900 50  0000 C CNN
@@ -2453,14 +2450,6 @@ F 3 "" H 1100 1750 50  0001 C CNN
 $EndComp
 Text Notes 8450 9700 0    47   ~ 0
 External HBT & Status\nindication will be done\nthrough sounder & radio
-Text Notes 4448 9197 0    47   ~ 9
-X2
-Text Notes 4448 9268 0    47   ~ 9
-X3\n
-Text Notes 4448 9339 0    47   ~ 9
-X4
-Text Notes 4448 9409 0    47   ~ 9
-X5
 $Comp
 L C_Small C28
 U 1 1 5706F362
@@ -2569,22 +2558,6 @@ F 4 "1711736" H 7500 6600 60  0001 C CNN "Farnell"
 $EndComp
 Text Notes 8000 5750 0    60   Italic 0
 COMPLETE
-Text Notes 4451 9479 0    47   ~ 9
-X6
-Text Notes 4450 9551 0    47   ~ 9
-X7
-Text Notes 6051 9195 0    47   ~ 9
-X9
-Text Notes 6049 9267 0    47   ~ 9
-X10
-Text Notes 6050 9335 0    47   ~ 9
-X11
-Text Notes 6050 9407 0    47   ~ 9
-X12
-Text Notes 6050 9478 0    47   ~ 9
-X13
-Text Notes 6051 9549 0    47   ~ 9
-X14
 $Comp
 L GND #PWR0101
 U 1 1 56FD5801
@@ -2747,7 +2720,7 @@ F 4 "2328003" H 14750 6000 50  0001 L CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MICROUSB J4
+L MICROUSB-RESCUE-Jarvis J4
 U 1 1 5705CFA8
 P 12600 6500
 F 0 "J4" H 12450 6800 50  0000 L CNN
@@ -4453,15 +4426,11 @@ Text Notes 6900 7250 0    60   ~ 0
 Configured for 868MHz
 Text Notes 8450 9050 0    55   ~ 11
 Notes:
-Text Notes 7000 9250 0    47   ~ 0
+Text Notes 7150 9250 0    47   ~ 0
 X17 Red Heatshrink\nX18 Blue Heatshrink\nX19 Yellow Heatshrink
-Text Notes 6050 9123 0    47   ~ 9
-X8
 Text Notes 6050 9550 0    47   ~ 0
 X8 3 Pin Housing\nX9 2 Pin Housing\nX10 6 Pin Housing\nX11 2 Pin Recepticle\nX12 Male Crimps\nX13 Femal Crimps\nX14 Crimp Tool
-Text Notes 4451 9122 0    47   ~ 9
-X1
-Text Notes 4450 9550 0    47   ~ 0
+Text Notes 4400 9550 0    47   ~ 0
 X1 434MHz Stubby Radio Antenna\nX2 Red Indicator LED for Pyro Arming\nX3 Energizer L91 Lithium Ultimate AA\nX4 AA Battery Holder\nX5 Key Switch for Arming Pyrotechnics\nX6 Wire\nX7 Black Heatshrink
 Text Notes 8450 9220 0    47   ~ 0
 Camera will have its\nown power supply ect.
