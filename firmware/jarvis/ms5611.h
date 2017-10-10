@@ -19,6 +19,6 @@ typedef struct __attribute__((packed)) {
 void ms5611_configure(I2CDriver* i2cd);
 
 /* Returns the current pressure */
-uint32_t get_pressure(void);
+int32_t get_pressure(void);
 
 #endif

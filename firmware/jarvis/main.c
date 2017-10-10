@@ -1,21 +1,6 @@
 #include "ch.h"
 #include "hal.h"
-#include "ms5611.h"
-
-
-/* Heartbeat Thread */ 
-static THD_WORKING_AREA(waHBT, 128);
-static THD_FUNCTION(HBT, arg) {
-  
-    (void)arg;
-    chRegSetThreadName("heartbeat");
-    while (true) {
-        palSetPad(GPIOC, GPIOC_STAT_HBT);
-        chThdSleepMilliseconds(100);
-        palClearPad(GPIOC, GPIOC_STAT_HBT);    
-        chThdSleepMilliseconds(500);
-    }
-}
+#include "measure.h"
 
 
 /* EXT Interrupt Config */
@@ -48,6 +33,21 @@ static const EXTConfig extcfg = {
 };
 
 
+/* Heartbeat Thread */ 
+static THD_WORKING_AREA(waHBT, 128);
+static THD_FUNCTION(HBT, arg) {
+  
+    (void)arg;
+    chRegSetThreadName("heartbeat");    
+    while (true) {
+        palSetPad(GPIOC, GPIOC_STAT_HBT);
+        chThdSleepMilliseconds(100);
+        palClearPad(GPIOC, GPIOC_STAT_HBT);    
+        chThdSleepMilliseconds(500);
+    }
+}
+
+
 /* Application Entry Point */
 int main(void) {
 
@@ -60,11 +60,12 @@ int main(void) {
     
     /* EXT Driver Init */
     extStart(&EXTD1, &extcfg);
+    
+    /* Start Measurements */
+    begin_measurements();
 
     /* Heartbeat Init */
     chThdCreateStatic(waHBT, sizeof(waHBT), NORMALPRIO, HBT, NULL);
-    
-    ms5611_configure(&I2CD1);
 
     /* Do Nothing */
     while (true) {
