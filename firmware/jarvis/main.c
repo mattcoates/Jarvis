@@ -1,5 +1,6 @@
 #include "ch.h"
 #include "hal.h"
+#include "ms5611.h"
 
 
 /* Heartbeat Thread */ 
@@ -62,6 +63,8 @@ int main(void) {
 
     /* Heartbeat Init */
     chThdCreateStatic(waHBT, sizeof(waHBT), NORMALPRIO, HBT, NULL);
+    
+    ms5611_configure(&I2CD1);
 
     /* Do Nothing */
     while (true) {
