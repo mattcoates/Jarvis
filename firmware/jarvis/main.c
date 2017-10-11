@@ -40,9 +40,13 @@ static THD_FUNCTION(HBT, arg) {
     (void)arg;
     chRegSetThreadName("heartbeat");    
     while (true) {
+        
         palSetPad(GPIOC, GPIOC_STAT_HBT);
+        //palSetPad(GPIOC, GPIOC_BEEP);
         chThdSleepMilliseconds(100);
-        palClearPad(GPIOC, GPIOC_STAT_HBT);    
+        
+        palClearPad(GPIOC, GPIOC_STAT_HBT);
+        //palClearPad(GPIOC, GPIOC_BEEP);    
         chThdSleepMilliseconds(500);
     }
 }
